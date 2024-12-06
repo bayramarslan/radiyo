@@ -134,15 +134,15 @@ export default function Home() {
         ))}
       </main>
 
-      <div className="dark:bg-white/5 bg-black/5 p-3">
-        {currentStation && (
+      {currentStation && (
+        <div className="dark:bg-white/5 bg-black/5 p-3">
           <PlayerController
             isPlay={isPlay}
             handlePlay={handlePlay}
             handlePause={handlePause}
           />
-        )}
-      </div>
+        </div>
+      )}
     </div>
   );
 }
@@ -157,7 +157,7 @@ const RadiyoItem = ({
   isActive: boolean;
 }) => (
   <button
-    className={`border dark:border-white/15 border-black/15 rounded-lg flex items-center gap-3 w-full overflow-hidden ${
+    className={`border hover:border-lime-800/40 transition-all hover:bg-lime-800/10 dark:border-white/15 border-black/15 rounded-lg flex items-center gap-3 w-full overflow-hidden ${
       isActive ? "bg-lime-500/15" : ""
     }`}
     onClick={onClick}
