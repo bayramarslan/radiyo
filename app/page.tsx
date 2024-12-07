@@ -173,7 +173,7 @@ const RadiyoItem = ({
   isActive: boolean;
 }) => (
   <button
-    className={`border hover:border-lime-800/40 transition-all hover:bg-lime-800/10 dark:border-white/15 border-black/15 rounded-lg flex items-center gap-2 w-full overflow-hidden ${
+    className={`border hover:border-lime-800/40 transition-all hover:bg-lime-800/10 dark:border-white/15 border-black/15 rounded-lg flex items-center gap-3 w-full overflow-hidden ${
       isActive ? "bg-lime-500/15" : ""
     }`}
     onClick={onClick}
@@ -184,7 +184,7 @@ const RadiyoItem = ({
       height={60}
       alt={`${station.name} Logo`}
     />
-    <div className="flex flex-col items-start space-y-1">
+    <div className="flex flex-col items-start space-y-0.5">
       <p className="font-bold dark:text-lime-200 text-lime-800">
         {station.name}
       </p>
