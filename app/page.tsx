@@ -18,7 +18,7 @@ export default function Home() {
     {
       name: "Özel FM",
       url: "https://ozelfm.80.yayin.com.tr/;stream/1",
-      homepage: "https://ozelfm.net/",
+      homepage: "ozelfm.net",
       icon: "/images/logo/ozelfm-logo.jpg",
       country: "Türkiye",
       country_code: "TR",
@@ -26,7 +26,7 @@ export default function Home() {
     {
       name: "Diyanet Radyo",
       url: "https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3c1171d7d2a.smil/playlist.m3u8",
-      homepage: "https://www.diyanetradyo.com/Canli-Dinle",
+      homepage: "diyanetradyo.com",
       icon: "/images/logo/diyanet-radyo.jpg",
       country: "Türkiye",
       country_code: "TR",
@@ -34,7 +34,7 @@ export default function Home() {
     {
       name: "Diyanet Kur'an Radyo",
       url: "https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3c14192aa92.smil/playlist.m3u8",
-      homepage: "https://diyanetkuranradyo.com/Canli-Dinle",
+      homepage: "diyanetkuranradyo.com",
       icon: "/images/logo/diyanet-kuran-radyo.jpg",
       country: "Türkiye",
       country_code: "TR",
@@ -42,7 +42,7 @@ export default function Home() {
     {
       name: "Diyanet Risalet Radyo",
       url: "https://eustr76.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3c1520b2626.smil/playlist.m3u8",
-      homepage: "https://risaletradyo.com/Canli-Dinle",
+      homepage: "risaletradyo.com",
       icon: "/images/logo/diyanet-risalet-radyo.jpg",
       country: "Türkiye",
       country_code: "TR",
@@ -50,7 +50,7 @@ export default function Home() {
     {
       name: "Vav Radyo",
       url:"https://trkvz-radyolar.ercdn.net/radyovav/playlist.m3u8", 
-      homepage:"https://www.vavtv.com.tr/",
+      homepage:"vavtv.com.tr",
       icon:"/images/logo/vav-radyo.jpg",
       country:"Türkiye",
       country_code:"TR",
@@ -58,7 +58,7 @@ export default function Home() {
     {
       name: "Erkam Radyo",
       url:"https://api-tv5.yayin.com.tr:8002/mp3", 
-      homepage:"https://www.erkamradyo.com/",
+      homepage:"erkamradyo.com",
       icon:"/images/logo/erkam-radyo.jpg",
       country:"Türkiye",
       country_code:"TR",
