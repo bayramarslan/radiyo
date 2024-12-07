@@ -47,6 +47,14 @@ export default function Home() {
       country: "Türkiye",
       country_code: "TR",
     },
+    {
+      name: "Vav Radyo",
+      url:"https://trkvz-radyolar.ercdn.net/radyovav/playlist.m3u8", 
+      homepage:"https://www.vavtv.com.tr/",
+      icon:"/images/logo/vav-rapg",
+      country:"Türkiye",
+      country_code:"TR",
+    },
   ];
 
   const [currentAudio, setCurrentAudio] = useState<HTMLAudioElement | null>(
