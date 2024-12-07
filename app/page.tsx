@@ -63,6 +63,14 @@ export default function Home() {
       country:"Türkiye",
       country_code:"TR",
     },
+{
+      name: "TRT Radyo Haber",
+      url:"https://radio-trtradyohaber.live.trt.com.tr/master.m3u8", 
+      homepage:"radyo.trt.net.tr",
+      icon:"/images/logo/trt-radyo-haber.jpg",
+      country:"Türkiye",
+      country_code:"TR",
+    },
   ];
 
   const [currentAudio, setCurrentAudio] = useState<HTMLAudioElement | null>(
