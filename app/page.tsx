@@ -51,7 +51,7 @@ export default function Home() {
       name: "Vav Radyo",
       url:"https://trkvz-radyolar.ercdn.net/radyovav/playlist.m3u8", 
       homepage:"https://www.vavtv.com.tr/",
-      icon:"/images/logo/vav-rapg",
+      icon:"/images/logo/vav-radyo.jpg",
       country:"Türkiye",
       country_code:"TR",
     },
