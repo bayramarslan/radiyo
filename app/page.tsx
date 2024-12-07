@@ -55,7 +55,14 @@ export default function Home() {
       country:"Türkiye",
       country_code:"TR",
     },
-    
+    {
+      name: "Erkam Radyo",
+      url:"https://api-tv5.yayin.com.tr:8002/mp3", 
+      homepage:"https://www.erkamradyo.com/",
+      icon:"/images/logo/erkam-radyo.jpg",
+      country:"Türkiye",
+      country_code:"TR",
+    },
   ];
 
   const [currentAudio, setCurrentAudio] = useState<HTMLAudioElement | null>(
