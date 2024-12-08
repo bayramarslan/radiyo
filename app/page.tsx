@@ -20,9 +20,11 @@ export default function Home() {
       setIsPlay(false);
       currentAudio.pause();
       currentAudio.src = "";
-      setCurrentStation(null);
-      setCurrentAudio(null);
-      return;
+      if (station === currentStation) {
+        setCurrentStation(null);
+        setCurrentAudio(null);
+        return;
+      }
     }
 
     const audioElement = new Audio();
