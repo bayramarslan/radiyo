@@ -89,7 +89,7 @@ export default function Home() {
 
       {/* media control */}
       {currentStation && (
-        <div className="sticky bottom-0 z-10 flex flex-1 items-center bg-black/5 shadow-[0px_-10px_40px_-15px_#00000050] backdrop-blur-3xl dark:bg-white/10 dark:shadow-[0px_-10px_40px_-15px_#fce2e030]">
+        <div className="sticky bottom-0 z-10 flex flex-1 items-center border-t-4 border-orange-500 bg-black/5 shadow-[0px_-10px_40px_-15px_#00000050] backdrop-blur-3xl dark:bg-white/5 dark:shadow-[0px_-10px_40px_-15px_#f9721550]">
           <PlayerController
             isPlay={isPlay}
             handlePlay={handlePlay}

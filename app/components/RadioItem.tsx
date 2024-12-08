@@ -11,7 +11,7 @@ const RadioItem = ({
 }) => (
   <button
     data-active={isActive}
-    className={`flex items-center border-b border-black/5 px-4 py-3 transition-all hover:bg-white/10 data-[active=true]:bg-orange-600/10 data-[active=true]:shadow-[inset_0px_-10px_40px_-15px_#0a0a0a20] dark:border-white/5 data-[active=true]:dark:bg-orange-400/10 data-[active=true]:dark:shadow-[inset_0px_-10px_40px_-15px_#fce2e030]`}
+    className={`group flex items-center overflow-hidden border-b border-black/5 px-4 py-3 outline-0 ring-orange-400/50 transition-all hover:bg-orange-600/10 focus:ring-1 data-[active=true]:bg-orange-600/10 data-[active=true]:shadow-[inset_0px_-10px_40px_-15px_#0a0a0a20] dark:border-white/5 dark:ring-orange-500/30 dark:hover:bg-orange-600/10 data-[active=true]:dark:bg-orange-400/10 data-[active=true]:dark:shadow-[inset_0px_-10px_40px_-15px_#fce2e030]`}
     onClick={onClick}
   >
     <Image
@@ -22,13 +22,13 @@ const RadioItem = ({
       className="mr-3 rounded-lg"
     />
     <div className="flex flex-1 items-center">
-      <div className="flex flex-1 flex-col items-start">
-        <p className="font-bold">{station.name}</p>
-        <p className="w-64 truncate text-left text-sm text-gray-500 sm:w-full dark:text-gray-400">
+      <div className="flex-1 text-left">
+        <p className="line-clamp-1 font-bold">{station.name}</p>
+        <p className="line-clamp-1 text-sm text-black/60 dark:text-white/60">
           {station.homepage}
         </p>
       </div>
-      <div className="flex px-4">
+      <div className="flex h-12 w-12 items-center justify-center">
         {isActive && (
           <svg
             xmlns="http://www.w3.org/2000/svg"

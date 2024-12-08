@@ -22,14 +22,14 @@ const PlayerController: React.FC<PlayerControllerProps> = ({
           width={50}
           height={50}
           alt={`${station.name} Logo`}
-          className="mr-3 rounded-lg border border-white/20"
+          className="mr-3 rounded-lg"
         />
         <div className="">
           <p className="font-bold">{station.name}</p>
           <p className="text-sm opacity-70">{station.homepage}</p>
         </div>
       </div>
-      <div className="flex items-center justify-center gap-4 text-orange-600 dark:text-zinc-500">
+      <div className="flex items-center justify-center gap-4 text-orange-600">
         {isPlay && (
           <button
             onClick={handlePause}
