@@ -1,6 +1,5 @@
 "use client";
 import { useState, useRef } from "react";
-import Image from "next/image";
 import Hls from "hls.js";
 import PlayerController from "./components/PlayerController";
 import radioStations from "./data/radioStations.json";
