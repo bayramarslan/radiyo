@@ -19,8 +19,8 @@ const PlayerController: React.FC<PlayerControllerProps> = ({
       <div className="flex items-center justify-center">
         <Image
           src={station.icon}
-          width={60}
-          height={60}
+          width={50}
+          height={50}
           alt={`${station.name} Logo`}
           className="mr-3 rounded-lg border border-white/20"
         />
@@ -37,8 +37,8 @@ const PlayerController: React.FC<PlayerControllerProps> = ({
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
+              width="18"
+              height="18"
               viewBox="0 0 24 24"
             >
               <path
@@ -56,8 +56,8 @@ const PlayerController: React.FC<PlayerControllerProps> = ({
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
+              width="18"
+              height="18"
               viewBox="0 0 24 24"
             >
               <path
