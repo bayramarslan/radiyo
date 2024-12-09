@@ -57,7 +57,7 @@
   },
   {
     "name": "Radyo Gül",
-    "url": "http://yayin2.canliyayin.org:8866/;*.mp3",
+    "url": "https://yayin2.canliyayin.org:8866/;*.mp3",
     "homepage": "radyogul.com.tr",
     "icon": "/images/logo/radyo-gul.jpg",
     "country": "Türkiye",
