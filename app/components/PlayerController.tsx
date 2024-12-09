@@ -15,7 +15,7 @@ const PlayerController: React.FC<PlayerControllerProps> = ({
   station,
 }) => {
   return (
-    <div className="flex flex-1 flex-row items-center justify-between gap-2 px-4 py-3">
+    <div className="border-borderBrand sticky bottom-0 z-10 flex flex-1 flex-row items-center justify-between gap-2 border-t-4 bg-black/5 px-4 py-3 shadow-[0px_-10px_40px_-15px_#00000050] backdrop-blur-3xl dark:bg-white/5 dark:shadow-[0px_-10px_40px_-15px_#f9721550]">
       <div className="flex items-center justify-center">
         <Image
           src={station.icon}
@@ -29,11 +29,11 @@ const PlayerController: React.FC<PlayerControllerProps> = ({
           <p className="text-sm opacity-70">{station.homepage}</p>
         </div>
       </div>
-      <div className="flex items-center justify-center gap-4 text-orange-600">
+      <div className="text-textBrand flex items-center justify-center gap-4">
         {isPlay && (
           <button
             onClick={handlePause}
-            className="flex size-12 items-center justify-center rounded-lg transition-all hover:bg-orange-600 hover:text-white"
+            className="hover:bg-backgroundBrand flex size-12 items-center justify-center rounded-lg transition-all hover:text-background dark:hover:text-foreground"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -48,11 +48,10 @@ const PlayerController: React.FC<PlayerControllerProps> = ({
             </svg>
           </button>
         )}
-
         {!isPlay && (
           <button
             onClick={handlePlay}
-            className="flex size-12 items-center justify-center rounded-lg transition-all hover:bg-orange-600 hover:text-white"
+            className="hover:bg-backgroundBrand flex size-12 items-center justify-center rounded-lg transition-all hover:text-background dark:hover:text-foreground"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

@@ -87,16 +87,13 @@ export default function Home() {
         ))}
       </main>
 
-      {/* media control */}
       {currentStation && (
-        <div className="sticky bottom-0 z-10 flex flex-1 items-center border-t-4 border-orange-500 bg-black/5 shadow-[0px_-10px_40px_-15px_#00000050] backdrop-blur-3xl dark:bg-white/5 dark:shadow-[0px_-10px_40px_-15px_#f9721550]">
-          <PlayerController
-            isPlay={isPlay}
-            handlePlay={handlePlay}
-            handlePause={handlePause}
-            station={currentStation}
-          />
-        </div>
+        <PlayerController
+          isPlay={isPlay}
+          handlePlay={handlePlay}
+          handlePause={handlePause}
+          station={currentStation}
+        />
       )}
     </div>
   );

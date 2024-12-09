@@ -11,7 +11,7 @@ const RadioItem = ({
 }) => (
   <button
     data-active={isActive}
-    className={`group flex items-center overflow-hidden border-b border-black/5 px-4 py-3 outline-0 ring-orange-400/50 transition-all hover:bg-orange-600/10 focus:ring-1 data-[active=true]:bg-orange-600/10 data-[active=true]:shadow-[inset_0px_-10px_40px_-15px_#0a0a0a20] dark:border-white/5 dark:ring-orange-500/30 dark:hover:bg-orange-600/10 data-[active=true]:dark:bg-orange-400/10 data-[active=true]:dark:shadow-[inset_0px_-10px_40px_-15px_#fce2e030]`}
+    className={`group flex items-center overflow-hidden border-b border-black/5 px-4 py-3 outline-0 transition-all hover:bg-black/10 focus:ring-0 data-[active=true]:bg-black/15 data-[active=true]:shadow-[inset_0px_-10px_40px_-15px_#0a0a0a20] dark:border-white/5 dark:hover:bg-white/5 data-[active=true]:dark:bg-white/10 data-[active=true]:dark:shadow-[inset_0px_-10px_40px_-15px_#fce2e030]`}
     onClick={onClick}
   >
     <Image
@@ -35,7 +35,7 @@ const RadioItem = ({
             width="18"
             height="18"
             viewBox="0 0 24 24"
-            className="text-orange-600 dark:text-orange-700"
+            className="text-textBrand"
           >
             <path
               fill="currentColor"
@@ -49,7 +49,7 @@ const RadioItem = ({
             width="18"
             height="18"
             viewBox="0 0 24 24"
-            className="text-orange-900/30 dark:text-white/40"
+            className="text-black/30 dark:text-white/30"
           >
             <path
               fill="currentColor"

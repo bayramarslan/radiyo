@@ -2,16 +2,16 @@ import React from "react";
 
 export default function Header({ isPlay }: { isPlay: boolean }) {
   return (
-    <div className="flex flex-1 flex-row items-center bg-orange-600 p-4 text-white/95 dark:bg-orange-800">
+    <div className="bg-backgroundBrand flex flex-1 flex-row items-center p-4 text-foreground">
       <div className="flex flex-1 items-stretch">
-        <div className="mr-3 flex h-[50px] w-[50px] items-center justify-center rounded-lg border-b-2 border-orange-700 bg-orange-100 dark:bg-orange-950">
+        <div className="text-backgroundBrand mr-3 flex h-[50px] w-[50px] items-center justify-center rounded-lg bg-background shadow dark:bg-orange-950 dark:text-foreground">
           <svg
             viewBox="0 0 48 48"
             xmlns="http://www.w3.org/2000/svg"
             width={40}
             height={40}
             data-is-play={isPlay}
-            className="text-orange-600 hover:animate-spin active:animate-spin data-[is-play=true]:animate-spin dark:text-orange-200"
+            className="hover:animate-spin active:animate-spin data-[is-play=true]:animate-spin"
           >
             <g transform="matrix(1.19999965 0 0 1.19999965 3.135861 -1208.242317)">
               <path
@@ -22,7 +22,7 @@ export default function Header({ isPlay }: { isPlay: boolean }) {
             </g>
           </svg>
         </div>
-        <div className="relative flex flex-1 rounded-lg border-b-2 border-orange-700/40 bg-white/15 has-[input:focus]:border-orange-600 has-[input:focus]:bg-orange-700/70">
+        <div className="relative flex flex-1 rounded-lg bg-white/15 text-background shadow has-[input:focus]:bg-white/20 dark:text-foreground">
           <input
             type="text"
             placeholder="radiyo.vercel.app"
