@@ -1,10 +1,10 @@
 "use client";
-import { useState, useRef } from "react";
 import Hls from "hls.js";
-import PlayerController from "./components/PlayerController";
-import radioStations from "./data/radioStations.json";
+import { useRef, useState } from "react";
 import Header from "./components/Header";
+import PlayerController from "./components/PlayerController";
 import RadioItem from "./components/RadioItem";
+import radioStations from "./data/radioStations.json";
 
 export default function Home() {
   const [currentAudio, setCurrentAudio] = useState<HTMLAudioElement | null>(
@@ -76,8 +76,8 @@ export default function Home() {
   return (
     <div className="grid min-h-dvh select-none grid-rows-[auto_1fr_auto]">
       <Header isPlay={isPlay} />
-      <main className="flex flex-col overflow-auto">
-        {radioStations.map((station, index) => (
+      <main className="flex flex-col">
+        {radioStations.map((station: RadioStation, index) => (
           <RadioItem
             key={index}
             station={station}
