@@ -22,7 +22,7 @@ const PlayerController: React.FC<PlayerControllerProps> = ({
           width={50}
           height={50}
           alt={`${station.name} Logo`}
-          className="mr-3 rounded-lg border-b-2 border-foreground"
+          className="mr-3 rounded-lg"
         />
         <div className="">
           <p className="line-clamp-2 font-bold">{station.name}</p>
