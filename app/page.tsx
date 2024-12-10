@@ -77,7 +77,7 @@ export default function Home() {
     <div className="grid min-h-dvh select-none grid-rows-[auto_1fr_auto]">
       <Header isPlay={isPlay} />
       <main className="flex flex-col overflow-auto">
-        {radioStations.map((station, index) => (
+        {radioStations.map((station: RadioStation, index) => (
           <RadioItem
             key={index}
             station={station}
