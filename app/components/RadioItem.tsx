@@ -11,7 +11,7 @@ const RadioItem = ({
 }) => (
   <button
     data-active={isActive}
-    className={`group flex items-center overflow-hidden border-b border-black/5 px-4 py-3 outline-0 transition-all hover:bg-black/10 focus:ring-0 data-[active=true]:bg-black/15 data-[active=true]:shadow-[inset_0px_-10px_40px_-15px_#0a0a0a20] dark:border-white/5 dark:hover:bg-white/5 data-[active=true]:dark:bg-white/10 data-[active=true]:dark:shadow-[inset_0px_-10px_40px_-15px_#fce2e030]`}
+    className={`data-[active=true]:bg-secondary/20 hover:bg-secondary/15 border-secondary/25 flex items-center border-b px-4 py-3 outline-0 transition-all duration-200`}
     onClick={onClick}
   >
     <Image
@@ -22,9 +22,9 @@ const RadioItem = ({
       className="mr-3 rounded-lg"
     />
     <div className="flex flex-1 items-center">
-      <div className="flex-1 text-left">
-        <p className="line-clamp-1 font-bold">{station.name}</p>
-        <p className="line-clamp-1 text-sm text-black/60 dark:text-white/60">
+      <div className="flex flex-1 flex-col items-start">
+        <p className="line-clamp-1 text-start font-bold">{station.name}</p>
+        <p className="text-foreground/50 line-clamp-1 text-sm">
           {station.homepage}
         </p>
       </div>
@@ -35,7 +35,7 @@ const RadioItem = ({
             width="18"
             height="18"
             viewBox="0 0 24 24"
-            className="text-textBrand"
+            className="text-foreground/70"
           >
             <path
               fill="currentColor"
@@ -49,7 +49,7 @@ const RadioItem = ({
             width="18"
             height="18"
             viewBox="0 0 24 24"
-            className="text-black/30 dark:text-white/30"
+            className="text-secondary"
           >
             <path
               fill="currentColor"

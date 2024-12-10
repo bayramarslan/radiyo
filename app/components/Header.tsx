@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Header({ isPlay }: { isPlay: boolean }) {
   return (
-    <div className="flex flex-1 items-stretch p-4 bg-primary/10">
-      <div className="mr-3 flex h-[50px] w-[50px] items-center justify-center rounded-lg shadow">
+    <div className="to-secondary flex flex-1 items-stretch bg-primary bg-gradient-to-t from-primary p-4">
+      <div className="bg-background/70 border-secondary mr-3 flex h-[50px] w-[50px] items-center justify-center rounded-lg border-b-2 shadow">
         <svg
           viewBox="0 0 48 48"
           xmlns="http://www.w3.org/2000/svg"
@@ -19,9 +19,8 @@ export default function Header({ isPlay }: { isPlay: boolean }) {
           </g>
         </svg>
       </div>
-      <div className="relative flex flex-1 rounded-lg shadow has-[input:focus]:bg-white/20">
+      <div className="bg-background/30 has-[input:focus]:bg-background/50 has-[input:focus]:border-secondary relative flex flex-1 rounded-lg border-b-2 border-transparent shadow">
         <input
-          readOnly
           type="text"
           placeholder="radiyo.vercel.app"
           className="flex flex-1 bg-transparent px-4 text-foreground outline-none placeholder:text-foreground"

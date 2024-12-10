@@ -15,25 +15,27 @@ const PlayerController: React.FC<PlayerControllerProps> = ({
   station,
 }) => {
   return (
-    <div className="border-borderBrand sticky bottom-0 z-10 flex flex-1 flex-row items-center justify-between gap-2 border-t-4 bg-black/5 px-4 py-3 shadow-[0px_-10px_40px_-15px_#00000050] backdrop-blur-3xl dark:bg-white/5 dark:shadow-[0px_-10px_40px_-15px_#f9721550]">
+    <div className="border-secondary sticky bottom-0 flex flex-row items-center justify-between gap-2 border-t-4 bg-primary/30 px-4 py-3 backdrop-blur-3xl">
       <div className="flex items-center justify-center">
         <Image
           src={station.icon}
           width={50}
           height={50}
           alt={`${station.name} Logo`}
-          className="mr-3 rounded-lg"
+          className="mr-3 rounded-lg border-b-2 border-foreground"
         />
         <div className="">
-          <p className="font-bold">{station.name}</p>
-          <p className="text-sm opacity-70">{station.homepage}</p>
+          <p className="line-clamp-2 font-bold">{station.name}</p>
+          <p className="text-foreground/70 line-clamp-1 text-sm">
+            {station.homepage}
+          </p>
         </div>
       </div>
-      <div className="text-textBrand flex items-center justify-center gap-4">
+      <div className="text-foreground/70 flex items-center justify-center gap-4">
         {isPlay && (
           <button
             onClick={handlePause}
-            className="hover:bg-backgroundBrand flex size-12 items-center justify-center rounded-lg transition-all hover:text-background dark:hover:text-foreground"
+            className="hover:bg-secondary/50 flex size-12 items-center justify-center rounded-lg transition-all"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +53,7 @@ const PlayerController: React.FC<PlayerControllerProps> = ({
         {!isPlay && (
           <button
             onClick={handlePlay}
-            className="hover:bg-backgroundBrand flex size-12 items-center justify-center rounded-lg transition-all hover:text-background dark:hover:text-foreground"
+            className="hover:bg-secondary/50 flex size-12 items-center justify-center rounded-lg transition-all"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
