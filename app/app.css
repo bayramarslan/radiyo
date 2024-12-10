@@ -5,18 +5,14 @@
 :root {
   --background: #fce2e0;
   --foreground: #171717;
-  --borderBrand: #ea580c;
-  --backgroundBrand: #ea580c;
-  --textBrand: #ea580c;
+  --color-primary: 210 50 20;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #fce2e0;
-    --borderBrand: #9a3412;
-    --backgroundBrand: #9a3412;
-    --textBrand: #9a3412;
+    --foreground: rgb(243, 122, 113);
+    --color-primary: 210 50 20;
   }
 }
 
@@ -24,3 +20,9 @@ body {
   color: var(--foreground);
   background: var(--background);
 }
+
+/* debug
+body > * :hover {
+  border: 1px solid #f00f0040;
+}
+*/

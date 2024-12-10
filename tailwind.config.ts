@@ -11,9 +11,7 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        borderBrand: "var(--borderBrand)",
-        backgroundBrand: "var(--backgroundBrand)",
-        textBrand: "var(--textBrand)",
+        primary: 'rgb(var(--color-primary))',
       },
     },
   },
