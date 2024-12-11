@@ -5,4 +5,5 @@ interface RadioStation {
   icon: string;
   country: string;
   country_code: string;
+  active: boolean;
 }
