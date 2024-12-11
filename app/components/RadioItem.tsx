@@ -11,7 +11,7 @@ const RadioItem = ({
 }) => (
   <button
     data-active={isActive}
-    className={`data-[active=true]:bg-secondary/20 hover:bg-secondary/15 border-secondary/25 flex items-center border-b px-4 py-3 outline-0 transition-all duration-200`}
+    className={`flex items-center border-b border-secondary/25 px-4 py-3 outline-0 transition-all duration-200 hover:bg-secondary/15 data-[active=true]:bg-secondary/20`}
     onClick={onClick}
   >
     <Image
@@ -24,7 +24,7 @@ const RadioItem = ({
     <div className="flex flex-1 items-center">
       <div className="flex flex-1 flex-col items-start">
         <p className="line-clamp-1 text-start font-bold">{station.name}</p>
-        <p className="text-foreground/50 line-clamp-1 text-sm">
+        <p className="line-clamp-1 text-sm text-foreground/50">
           {station.homepage}
         </p>
       </div>
@@ -35,7 +35,7 @@ const RadioItem = ({
             width="18"
             height="18"
             viewBox="0 0 24 24"
-            className="text-foreground/70"
+            className="text-foreground/60"
           >
             <path
               fill="currentColor"
@@ -49,7 +49,7 @@ const RadioItem = ({
             width="18"
             height="18"
             viewBox="0 0 24 24"
-            className="text-secondary"
+            className="text-secondary/60"
           >
             <path
               fill="currentColor"
