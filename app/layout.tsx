@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import "./app.css";
+import "@/app.css";
 
 export const metadata: Metadata = {
   title: "radiyo",
