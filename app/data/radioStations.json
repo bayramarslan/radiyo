@@ -5,7 +5,8 @@
     "homepage": "ozelfm.net",
     "icon": "/images/logo/ozelfm-logo.jpg",
     "country": "Türkiye",
-    "country_code": "TR"
+    "country_code": "TR",
+    "active": true
   },
   {
     "name": "Diyanet Radyo",
@@ -13,7 +14,8 @@
     "homepage": "diyanetradyo.com",
     "icon": "/images/logo/diyanet-radyo.jpg",
     "country": "Türkiye",
-    "country_code": "TR"
+    "country_code": "TR",
+    "active": true
   },
   {
     "name": "Diyanet Kur'an Radyo",
@@ -21,7 +23,8 @@
     "homepage": "diyanetkuranradyo.com",
     "icon": "/images/logo/diyanet-kuran-radyo.jpg",
     "country": "Türkiye",
-    "country_code": "TR"
+    "country_code": "TR",
+    "active": true
   },
   {
     "name": "Diyanet Risalet Radyo",
@@ -29,7 +32,8 @@
     "homepage": "risaletradyo.com",
     "icon": "/images/logo/diyanet-risalet-radyo.jpg",
     "country": "Türkiye",
-    "country_code": "TR"
+    "country_code": "TR",
+    "active": true
   },
   {
     "name": "Vav Radyo",
@@ -37,7 +41,8 @@
     "homepage": "vavtv.com.tr",
     "icon": "/images/logo/vav-radyo.jpg",
     "country": "Türkiye",
-    "country_code": "TR"
+    "country_code": "TR",
+    "active": true
   },
   {
     "name": "Erkam Radyo",
@@ -45,7 +50,8 @@
     "homepage": "erkamradyo.com",
     "icon": "/images/logo/erkam-radyo.jpg",
     "country": "Türkiye",
-    "country_code": "TR"
+    "country_code": "TR",
+    "active": true
   },
   {
     "name": "TRT Radyo Haber",
@@ -53,7 +59,8 @@
     "homepage": "radyo.trt.net.tr",
     "icon": "/images/logo/trt-radyo-haber.jpg",
     "country": "Türkiye",
-    "country_code": "TR"
+    "country_code": "TR",
+    "active": true
   },
   {
     "name": "Radyo Gül",
@@ -61,7 +68,8 @@
     "homepage": "radyogul.com.tr",
     "icon": "/images/logo/radyo-gul.jpg",
     "country": "Türkiye",
-    "country_code": "TR"
+    "country_code": "TR",
+    "active": false
   },
   {
     "name": "İsra FM",
@@ -69,7 +77,8 @@
     "homepage": "israfm.com",
     "icon": "/images/logo/isra-fm.jpg",
     "country": "Türkiye",
-    "country_code": "TR"
+    "country_code": "TR",
+    "active": false
   },
   {
     "name": "Quran Radio - Mp3Quran Tarateel",
@@ -77,7 +86,8 @@
     "homepage": "mp3quran.net",
     "icon": "/images/logo/mp3quran-radio.jpg?v=1",
     "country": "",
-    "country_code": ""
+    "country_code": "",
+    "active": true
   },
   {
     "name": "Quran Radio - Abdulbasit Abdulsamad",
@@ -85,7 +95,8 @@
     "homepage": "mp3islam.com",
     "icon": "/images/logo/abdulbasit-abdulsamad.jpg",
     "country": "",
-    "country_code": ""
+    "country_code": "",
+    "active": true
   },
   {
     "name": "Quran Radio - Maher Al Mueaqly",
@@ -93,6 +104,7 @@
     "homepage": "mp3islam.com",
     "icon": "/images/logo/maher-al-mueaqly.jpg?v=1",
     "country": "",
-    "country_code": ""
+    "country_code": "",
+    "active": false
   }
 ]

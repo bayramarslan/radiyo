@@ -77,14 +77,16 @@ export default function Home() {
     <div className="grid min-h-dvh select-none grid-rows-[auto_1fr_auto]">
       <Header isPlay={isPlay} />
       <main className="flex flex-col">
-        {radioStations.map((station: RadioStation, index) => (
-          <RadioItem
-            key={index}
-            station={station}
-            onClick={() => playStream(station)}
-            isActive={currentStation?.name === station.name}
-          />
-        ))}
+        {radioStations
+          .filter(({ active }) => active)
+          .map((station: RadioStation, index) => (
+            <RadioItem
+              key={index}
+              station={station}
+              onClick={() => playStream(station)}
+              isActive={currentStation === station}
+            />
+          ))}
       </main>
 
       {currentStation && (
