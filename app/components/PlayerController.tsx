@@ -7,15 +7,13 @@ import React from "react";
 
 type PlayerControllerProps = {
   isPlay: boolean;
-  handlePlay: () => void;
-  handlePause: () => void;
+  playStream: (station: RadioStation) => void;
   station: RadioStation;
 };
 
 const PlayerController: React.FC<PlayerControllerProps> = ({
   isPlay,
-  handlePlay,
-  handlePause,
+  playStream,
   station,
 }) => {
   return (
@@ -38,7 +36,7 @@ const PlayerController: React.FC<PlayerControllerProps> = ({
       <div className="flex items-center justify-center gap-4 text-foreground/70">
         {isPlay && (
           <button
-            onClick={handlePause}
+            onClick={() => playStream(station)}
             className="flex size-12 items-center justify-center rounded-lg p-3.5 transition-all hover:bg-secondary/50"
           >
             <IconPlayerPauseFilled className="text-foreground/80" />
@@ -46,7 +44,7 @@ const PlayerController: React.FC<PlayerControllerProps> = ({
         )}
         {!isPlay && (
           <button
-            onClick={handlePlay}
+            onClick={() => playStream(station)}
             className="flex size-12 items-center justify-center rounded-lg p-3.5 transition-all hover:bg-secondary/50"
           >
             <IconPlayerPlayFilled className="text-foreground/80" />

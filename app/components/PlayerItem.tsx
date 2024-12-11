@@ -8,13 +8,15 @@ const RadioItem = ({
   station,
   onClick,
   isActive,
+  isPlay,
 }: {
   station: RadioStation;
   onClick: () => void;
   isActive: boolean;
+  isPlay: boolean;
 }) => (
   <button
-    data-active={isActive}
+    data-active={isActive && isPlay}
     className={`flex items-center border-b border-secondary/25 px-4 py-3 outline-0 transition-all duration-200 hover:bg-secondary/15 data-[active=true]:bg-secondary/20`}
     onClick={onClick}
   >
@@ -33,7 +35,7 @@ const RadioItem = ({
         </p>
       </div>
       <div className="flex size-12 items-center justify-center p-3.5">
-        {isActive ? (
+        {isActive && isPlay ? (
           <IconPlayerPauseFilled className="text-foreground/80" />
         ) : (
           <IconPlayerPlayFilled className="text-secondary/80" />
