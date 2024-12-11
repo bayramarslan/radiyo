@@ -1,10 +1,10 @@
 "use client";
 import Hls from "hls.js";
 import { useRef, useState } from "react";
-import Header from "./components/Header";
-import PlayerController from "./components/PlayerController";
-import RadioItem from "./components/RadioItem";
-import radioStations from "./data/radioStations.json";
+import Header from "@/components/Header";
+import PlayerController from "@/components/PlayerController";
+import RadioItem from "@/components/RadioItem";
+import radioStations from "@/data/radioStations.json";
 
 export default function Home() {
   const [currentAudio, setCurrentAudio] = useState<HTMLAudioElement | null>(
