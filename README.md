@@ -2,7 +2,7 @@
 
 ## radiyo
 
-[radiyo.vercel.app](radiyo.vercel.app)
+[radiyo.vercel.app](https://radiyo.vercel.app)
 
 First, run the development server:
 
