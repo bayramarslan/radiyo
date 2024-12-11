@@ -15,7 +15,7 @@ const PlayerController: React.FC<PlayerControllerProps> = ({
   station,
 }) => {
   return (
-    <div className="border-secondary sticky bottom-0 flex flex-row items-center justify-between gap-2 border-t-4 bg-primary/30 px-4 py-3 backdrop-blur-3xl">
+    <div className="sticky bottom-0 flex flex-row items-center justify-between gap-2 border-t-4 border-secondary bg-primary/30 px-4 py-3 backdrop-blur-3xl">
       <div className="flex items-center justify-center">
         <Image
           src={station.icon}
@@ -26,16 +26,16 @@ const PlayerController: React.FC<PlayerControllerProps> = ({
         />
         <div className="">
           <p className="line-clamp-2 font-bold">{station.name}</p>
-          <p className="text-foreground/70 line-clamp-1 text-sm">
+          <p className="line-clamp-1 text-sm text-foreground/70">
             {station.homepage}
           </p>
         </div>
       </div>
-      <div className="text-foreground/70 flex items-center justify-center gap-4">
+      <div className="flex items-center justify-center gap-4 text-foreground/70">
         {isPlay && (
           <button
             onClick={handlePause}
-            className="hover:bg-secondary/50 flex size-12 items-center justify-center rounded-lg transition-all"
+            className="flex size-12 items-center justify-center rounded-lg transition-all hover:bg-secondary/50"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +53,7 @@ const PlayerController: React.FC<PlayerControllerProps> = ({
         {!isPlay && (
           <button
             onClick={handlePlay}
-            className="hover:bg-secondary/50 flex size-12 items-center justify-center rounded-lg transition-all"
+            className="flex size-12 items-center justify-center rounded-lg transition-all hover:bg-secondary/50"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
