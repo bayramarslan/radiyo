@@ -27,7 +27,10 @@ const PlayerController: React.FC<PlayerControllerProps> = ({
           className="mr-3 rounded-lg"
         />
         <div className="">
-          <p className="line-clamp-2 font-bold">{station.name}</p>
+          <p className="line-clamp-2 font-bold">
+            <span className="hidden sm:block">{station.name}</span>
+            <span className="block sm:hidden">{station.shortname}</span>
+          </p>
           <p className="line-clamp-1 text-sm text-foreground/70">
             {station.homepage}
           </p>

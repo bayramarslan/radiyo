@@ -1,6 +1,7 @@
 [
   {
     "name": "Özel FM",
+    "shortname": "Özel FM",
     "url": "https://ozelfm.80.yayin.com.tr/;stream/1",
     "homepage": "ozelfm.net",
     "icon": "/images/logo/ozelfm-logo.jpg",
@@ -10,6 +11,7 @@
   },
   {
     "name": "Diyanet Radyo",
+    "shortname": "Diyanet Radyo",
     "url": "https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3c1171d7d2a.smil/playlist.m3u8",
     "homepage": "diyanetradyo.com",
     "icon": "/images/logo/diyanet-radyo.jpg",
@@ -19,6 +21,7 @@
   },
   {
     "name": "Diyanet Kur'an Radyo",
+    "shortname": "Diyanet Kur'an Radyo",
     "url": "https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3c14192aa92.smil/playlist.m3u8",
     "homepage": "diyanetkuranradyo.com",
     "icon": "/images/logo/diyanet-kuran-radyo.jpg",
@@ -28,6 +31,7 @@
   },
   {
     "name": "Diyanet Risalet Radyo",
+    "shortname": "Diyanet Risalet Radyo",
     "url": "https://eustr76.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3c1520b2626.smil/playlist.m3u8",
     "homepage": "risaletradyo.com",
     "icon": "/images/logo/diyanet-risalet-radyo.jpg",
@@ -37,6 +41,7 @@
   },
   {
     "name": "Vav Radyo",
+    "shortname": "Vav Radyo",
     "url": "https://trkvz-radyolar.ercdn.net/radyovav/playlist.m3u8",
     "homepage": "vavtv.com.tr",
     "icon": "/images/logo/vav-radyo.jpg",
@@ -46,6 +51,7 @@
   },
   {
     "name": "Erkam Radyo",
+    "shortname": "Erkam Radyo",
     "url": "https://api-tv5.yayin.com.tr:8002/mp3",
     "homepage": "erkamradyo.com",
     "icon": "/images/logo/erkam-radyo.jpg",
@@ -55,6 +61,7 @@
   },
   {
     "name": "TRT Radyo Haber",
+    "shortname": "TRT Radyo Haber",
     "url": "https://radio-trtradyohaber.live.trt.com.tr/master.m3u8",
     "homepage": "radyo.trt.net.tr",
     "icon": "/images/logo/trt-radyo-haber.jpg",
@@ -64,6 +71,7 @@
   },
   {
     "name": "Radyo Gül",
+    "shortname": "Radyo Gül",
     "url": "https://yayin2.canliyayin.org:8866/;*.mp3",
     "homepage": "radyogul.com.tr",
     "icon": "/images/logo/radyo-gul.jpg",
@@ -73,6 +81,7 @@
   },
   {
     "name": "İsra FM",
+    "shortname": "İsra FM",
     "url": "https://yayin2.canliyayin.org:8210/;stream",
     "homepage": "israfm.com",
     "icon": "/images/logo/isra-fm.jpg",
@@ -82,6 +91,7 @@
   },
   {
     "name": "Quran Radio - Mp3Quran Tarateel",
+    "shortname": "Quran - Tarateel",
     "url": "https://qurango.net/radio/tarateel",
     "homepage": "mp3quran.net",
     "icon": "/images/logo/mp3quran-radio.jpg?v=1",
@@ -91,6 +101,7 @@
   },
   {
     "name": "Quran Radio - Abdulbasit Abdulsamad",
+    "shortname": "Quran - Abdulsamad",
     "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
     "homepage": "mp3islam.com",
     "icon": "/images/logo/abdulbasit-abdulsamad.jpg",
@@ -100,6 +111,7 @@
   },
   {
     "name": "Quran Radio - Maher Al Mueaqly",
+    "shortname": "Quran - Maher Al Mueaqly",
     "url": "https://radio.mp3islam.com/listen/maher/radio.mp3",
     "homepage": "mp3islam.com",
     "icon": "/images/logo/maher-al-mueaqly.jpg?v=1",

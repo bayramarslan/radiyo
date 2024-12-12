@@ -1,5 +1,6 @@
 interface RadioStation {
   name: string;
+  shortname: string;
   url: string;
   homepage: string;
   icon: string;
