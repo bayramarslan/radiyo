@@ -7,7 +7,7 @@ export default function Header({ isPlay }: { isPlay: boolean }) {
         className="group mr-3 flex size-[50px] items-center justify-center rounded-lg border-b-2 border-secondary bg-background/70 shadow"
         data-is-play={isPlay}
       >
-        <IconAccessPoint className="size-full p-1.5 group-hover:animate-pulse group-active:animate-spin group-data-[is-play=true]:animate-spin" />
+        <IconAccessPoint className="size-full p-1.5 group-hover:animate-spin group-active:animate-spin group-data-[is-play=true]:animate-spin" />
       </div>
       <div className="relative flex flex-1 rounded-lg border-b-2 border-transparent bg-background/30 shadow has-[input:focus]:border-secondary has-[input:focus]:bg-background/50">
         <input
