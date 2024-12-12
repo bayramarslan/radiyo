@@ -40,7 +40,7 @@ const PlayerController: React.FC<PlayerControllerProps> = ({
         {isPlay && (
           <button
             onClick={() => playStream(station)}
-            className="flex size-12 items-center justify-center rounded-lg p-3.5 transition-all hover:bg-secondary/50"
+            className="flex size-12 items-center justify-center rounded-lg p-3.5 outline-secondary/50 transition-all hover:bg-secondary/50"
           >
             <IconPlayerPauseFilled className="text-foreground/80" />
           </button>
