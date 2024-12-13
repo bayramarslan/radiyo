@@ -28,8 +28,8 @@ const PlayerController: React.FC<PlayerControllerProps> = ({
         />
         <div className="">
           <p className="line-clamp-2 font-bold">
-            <span className="hidden sm:block">{station.name}</span>
-            <span className="block sm:hidden">{station.shortname}</span>
+            <span className="xs:hidden block">{station.name}</span>
+            <span className="xs:block hidden">{station.shortname}</span>
           </p>
           <p className="line-clamp-1 text-sm text-foreground/70">
             {station.homepage}

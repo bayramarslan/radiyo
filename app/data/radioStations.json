@@ -118,5 +118,15 @@
     "country": "",
     "country_code": "",
     "active": false
+  },
+  {
+    "name": "Radyo Nida",
+    "shortname": "Radyo Nida",
+    "url": "https://anadolu.liderhost.com.tr/8106/stream",
+    "homepage": "radyonida.com.tr",
+    "icon": "/images/logo/radyo-nida.jpg",
+    "country": "Türkiye",
+    "country_code": "TR",
+    "active": true
   }
 ]

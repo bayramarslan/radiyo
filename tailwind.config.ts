@@ -14,6 +14,9 @@ export default {
         primary: "rgb(var(--color-primary))",
         secondary: "rgb(var(--color-secondary))",
       },
+      screens: {
+        xs: { max: "380px" },
+      },
     },
   },
   plugins: [],
