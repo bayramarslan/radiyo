@@ -1,5 +1,6 @@
-import type { Metadata, Viewport } from "next";
 import "@/app.css";
+import { Analytics } from "@vercel/analytics/next";
+import type { Metadata, Viewport } from "next";
 
 export const metadata: Metadata = {
   title: "radiyo",
@@ -21,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`antialiased`}>{children}</body>
+      <Analytics />
     </html>
   );
 }
