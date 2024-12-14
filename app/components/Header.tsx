@@ -15,7 +15,7 @@ export default function Header({ isPlay }: { isPlay: boolean }) {
           placeholder="radiyo.vercel.app"
           className="flex flex-1 bg-transparent px-4 text-foreground outline-0 placeholder:text-foreground"
         />
-        <div className="pointer-events-none absolute right-0 flex h-full w-12 items-center justify-center p-3.5">
+        <div className="pointer-events-none absolute right-0 flex size-12 items-center justify-center p-3.5">
           <IconListSearch />
         </div>
       </div>

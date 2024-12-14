@@ -32,8 +32,8 @@ const RadioItem = ({
     <div className="flex flex-1 items-center">
       <div className="flex flex-1 flex-col items-start">
         <p className="line-clamp-1 text-start font-bold">
-          <span className="xs:hidden block">{station.name}</span>
-          <span className="xs:block hidden">{station.shortname}</span>
+          <span className="block xs:hidden">{station.name}</span>
+          <span className="hidden xs:block">{station.shortname}</span>
         </p>
         <p className="line-clamp-1 text-sm text-foreground/50" aria-hidden>
           {station.homepage}
