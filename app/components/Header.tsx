@@ -13,7 +13,7 @@ export default function Header({ isPlay }: { isPlay: boolean }) {
         <input
           type="text"
           placeholder="radiyo.vercel.app"
-          className="flex flex-1 bg-transparent px-4 text-foreground outline-0 placeholder:text-foreground"
+          className="flex flex-1 bg-transparent px-4 text-foreground outline-none placeholder:text-foreground"
         />
         <div className="pointer-events-none absolute right-0 flex size-12 items-center justify-center p-3.5">
           <IconListSearch />

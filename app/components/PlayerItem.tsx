@@ -17,7 +17,7 @@ const RadioItem = ({
 }) => (
   <button
     data-active={isActive && isPlay}
-    className={`flex items-center border-b border-secondary/20 px-4 py-3 outline-primary/50 transition-all duration-200 hover:bg-secondary/15 data-[active=true]:bg-secondary/20`}
+    className={`flex items-center border-b border-secondary/20 px-4 py-3 outline-none transition-all duration-200 hover:bg-secondary/15 focus:bg-secondary/15 data-[active=true]:bg-secondary/20`}
     aria-label={station.name}
     onClick={onClick}
   >
@@ -39,11 +39,19 @@ const RadioItem = ({
           {station.homepage}
         </p>
       </div>
-      <div className="flex size-12 items-center justify-center p-3.5">
+      <div className="flex size-12 items-center justify-center">
         {isActive && isPlay ? (
-          <IconPlayerPauseFilled className="text-foreground/80" />
+          <IconPlayerPauseFilled
+            className="text-foreground/80"
+            width={20}
+            height={20}
+          />
         ) : (
-          <IconPlayerPlayFilled className="text-secondary/80" />
+          <IconPlayerPlayFilled
+            className="text-secondary/80"
+            width={20}
+            height={20}
+          />
         )}
       </div>
     </div>
