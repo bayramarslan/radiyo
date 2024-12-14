@@ -128,5 +128,15 @@
     "country": "Türkiye",
     "country_code": "TR",
     "active": true
+  },
+  {
+    "name": "Moral FM",
+    "shortname": "Moral FM",
+    "url": "https://stream-51.zeno.fm/0cfiqwdkobavv?zs=RptTdDEHQ2Wej62cArILjQ",
+    "homepage": "moralfm.com.tr",
+    "icon": "/images/logo/moral-fm.jpg",
+    "country": "Türkiye",
+    "country_code": "TR",
+    "active": true
   }
 ]
