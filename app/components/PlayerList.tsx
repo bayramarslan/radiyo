@@ -21,7 +21,7 @@ export default function PlayerList({
           <PlayerItem
             key={index}
             station={station}
-            onClick={() => playStream(station)}
+            playStream={playStream}
             isActive={currentStation === station}
             isPlay={isPlay}
           />

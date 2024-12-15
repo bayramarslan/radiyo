@@ -138,15 +138,5 @@
     "country": "Türkiye",
     "country_code": "TR",
     "active": true
-  },
-  {
-    "name": "Seyr FM",
-    "shortname": "Seyr FM",
-    "url": "https://sslyayin.netyayin.net/8024/stream",
-    "homepage": "seyrdijital.com",
-    "icon": "/images/logo/seyr-fm.jpg",
-    "country": "Türkiye",
-    "country_code": "TR",
-    "active": true
   }
 ]
