@@ -137,6 +137,6 @@
     "icon": "/images/logo/moral-fm.jpg",
     "country": "Türkiye",
     "country_code": "TR",
-    "active": true
+    "active": false
   }
 ]
