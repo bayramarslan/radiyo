@@ -3,8 +3,8 @@ import { Analytics } from "@vercel/analytics/next";
 import type { Metadata, Viewport } from "next";
 
 export const metadata: Metadata = {
-  title: "radiyo",
-  description: "islami radyo kanalları",
+  title: "Radyo",
+  description: "Radyo dinleyebileceğiniz sade bir uygulama",
 };
 
 export const viewport: Viewport = {
