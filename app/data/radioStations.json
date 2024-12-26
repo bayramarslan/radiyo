@@ -62,7 +62,7 @@
   {
     "name": "TRT Radyo Haber",
     "shortname": "TRT Radyo Haber",
-    "url": "https://radio-trtradyohaber.live.trt.com.tr/master.m3u8",
+    "url": "https://trt.radyotvonline.net/trthaber",
     "homepage": "radyo.trt.net.tr",
     "icon": "/images/logo/trt-radyo-haber.jpg",
     "country": "Türkiye",
