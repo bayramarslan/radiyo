@@ -13,7 +13,7 @@ export default function PlayerController({
   station,
 }: PlayerControllerProps) {
   return (
-    <div className="sticky bottom-0 flex flex-row items-center justify-between gap-2 border-t-4 border-secondary bg-primary/30 px-4 py-3 backdrop-blur-3xl">
+    <div className="sticky bottom-0 flex flex-row items-center justify-between gap-2 border-t-4 border-secondary bg-primary px-4 py-3 supports-[backdrop-filter]:bg-primary/30 supports-[backdrop-filter]:backdrop-blur-3xl">
       <div className="flex items-center justify-center">
         <Image
           src={station.icon}
