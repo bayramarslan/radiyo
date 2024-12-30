@@ -1,9 +1,5 @@
-import {
-  IconPlayerPauseFilled,
-  IconPlayerPlayFilled,
-} from "@tabler/icons-react";
+import { PauseIcon, PlayIcon } from "@heroicons/react/16/solid";
 import Image from "next/image";
-import React from "react";
 
 type PlayerControllerProps = {
   isPlay: boolean;
@@ -42,17 +38,9 @@ export default function PlayerController({
           className="flex size-12 items-center justify-center rounded-lg outline-none transition-all hover:bg-secondary/30 focus:bg-secondary/30"
         >
           {isPlay ? (
-            <IconPlayerPauseFilled
-              className="text-foreground/80"
-              width={20}
-              height={20}
-            />
+            <PauseIcon className="text-foreground/80" width={20} height={20} />
           ) : (
-            <IconPlayerPlayFilled
-              className="text-foreground/80"
-              width={20}
-              height={20}
-            />
+            <PlayIcon className="text-foreground/80" width={20} height={20} />
           )}
         </button>
       </div>

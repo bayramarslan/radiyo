@@ -1,7 +1,4 @@
-import {
-  IconPlayerPauseFilled,
-  IconPlayerPlayFilled,
-} from "@tabler/icons-react";
+import { PauseIcon, PlayIcon } from "@heroicons/react/16/solid";
 import Image from "next/image";
 
 interface RadioItemProps {
@@ -44,17 +41,9 @@ export default function RadioItem({
         </div>
         <div className="flex size-12 items-center justify-center">
           {isActive && isPlay ? (
-            <IconPlayerPauseFilled
-              className="text-foreground/80"
-              width={20}
-              height={20}
-            />
+            <PauseIcon className="text-foreground/80" width={20} height={20} />
           ) : (
-            <IconPlayerPlayFilled
-              className="text-secondary/80"
-              width={20}
-              height={20}
-            />
+            <PlayIcon className="text-secondary/80" width={20} height={20} />
           )}
         </div>
       </div>
