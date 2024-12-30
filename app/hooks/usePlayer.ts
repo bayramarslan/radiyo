@@ -1,5 +1,5 @@
-import { useEffect, useRef, useState } from "react";
 import Hls from "hls.js";
+import { useEffect, useRef, useState } from "react";
 
 export default function usePlayer() {
   const [currentStation, setCurrentStation] = useState<RadioStation | null>(
@@ -9,7 +9,6 @@ export default function usePlayer() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const hlsRef = useRef<Hls | null>(null);
 
-  // Helper function to initialize audio element
   const initializeAudioElement = () => {
     const audioElement = document.createElement("audio");
     audioElement.id = "audio-player";
@@ -22,7 +21,6 @@ export default function usePlayer() {
     audioRef.current.addEventListener("pause", () => setIsPlay(false));
   };
 
-  // Helper function to clean up audio element
   const cleanUpAudioElement = () => {
     if (audioRef.current) {
       audioRef.current.pause();
@@ -33,7 +31,6 @@ export default function usePlayer() {
     }
   };
 
-  // Helper function to destroy HLS instance
   const destroyHlsInstance = () => {
     if (hlsRef.current) {
       hlsRef.current.destroy();
@@ -41,7 +38,6 @@ export default function usePlayer() {
     }
   };
 
-  // Initialize audio and HLS setup on component mount
   useEffect(() => {
     initializeAudioElement();
     return () => {
@@ -50,7 +46,6 @@ export default function usePlayer() {
     };
   }, []);
 
-  // Function to play stream
   const playStream = (station: RadioStation) => {
     if (!audioRef.current) return;
 
@@ -86,7 +81,6 @@ export default function usePlayer() {
     }
   };
 
-  // Function to handle pause
   const handlePause = (station: RadioStation) => {
     setIsPlay(false);
 
@@ -102,7 +96,6 @@ export default function usePlayer() {
     audioRef.current.src = "";
   };
 
-  // Function to handle direct play
   const handlePlay = async () => {
     if (!audioRef.current) return;
 
