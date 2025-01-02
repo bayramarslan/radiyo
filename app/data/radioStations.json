@@ -80,10 +80,10 @@
     "active": true
   },
   {
-    "name": "İsra FM - Konya",
+    "name": "İsra FM",
     "shortname": "İsra FM",
     "url": "https://yayin2.canliyayin.org:8210/;stream",
-    "homepage": "israfm.com",
+    "homepage": "Konya - israfm.com",
     "icon": "/images/logo/isra-fm.jpg",
     "country": "Türkiye",
     "country_code": "TR",
@@ -150,10 +150,10 @@
     "active": true
   },
   {
-    "name": "Çağrı FM - Çorum",
+    "name": "Çağrı FM",
     "shortname": "Çağrı FM",
     "url": "https://sssx.radyosfer.com/9398/stream?/;stream.mp3",
-    "homepage": "cagrifm.com",
+    "homepage": "Çorum - cagrifm.com",
     "icon": "/images/logo/cagri-fm.jpg",
     "country": "Türkiye",
     "country_code": "TR",
