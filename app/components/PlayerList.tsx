@@ -17,6 +17,7 @@ export default function PlayerList({
     <main className="flex flex-col">
       {stations
         .filter(({ active }) => active)
+        .sort((a, b) => a.name.localeCompare(b.name))
         .map((station, index) => (
           <PlayerItem
             key={index}
