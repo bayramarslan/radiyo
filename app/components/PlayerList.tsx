@@ -15,18 +15,15 @@ export default function PlayerList({
 }: PlayerListProps) {
   return (
     <main className="flex flex-col">
-      {stations
-        .filter(({ active }) => active)
-        .sort((a, b) => a.name.localeCompare(b.name))
-        .map((station, index) => (
-          <PlayerItem
-            key={index}
-            station={station}
-            playStream={playStream}
-            isActive={currentStation === station}
-            isPlay={isPlay}
-          />
-        ))}
+      {stations.map((station, index) => (
+        <PlayerItem
+          key={index}
+          station={station}
+          playStream={playStream}
+          isActive={currentStation === station}
+          isPlay={isPlay}
+        />
+      ))}
     </main>
   );
 }
