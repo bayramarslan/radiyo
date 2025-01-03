@@ -68,21 +68,7 @@ export default function RadioItem({
               className={`flex items-center justify-center border-b-2 border-r border-secondary/15 border-b-transparent px-5 pb-2 pt-2.5 text-sm text-foreground/80 transition-all hover:bg-background/30 ${activeNode === node && isPlay && "border-b-secondary/60 bg-background/40"}`}
               onClick={() => playStream(node)}
             >
-              {activeNode === node && isPlay ? (
-                <PauseIcon
-                  width={16}
-                  height={16}
-                  className="text-foreground/50"
-                />
-              ) : (
-                <PlayIcon
-                  width={16}
-                  height={16}
-                  className="text-foreground/50"
-                />
-              )}
-
-              <span className="ml-1.5">{node.shortname}</span>
+              <span>{node.shortname}</span>
             </button>
           ))}
         </div>
