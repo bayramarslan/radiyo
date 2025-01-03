@@ -16,12 +16,12 @@ export default function RadioItem({
   isActive,
   isPlay,
 }: RadioItemProps) {
-  const nodeActive = station.node?.find((item) => item === currentStation);
+  const activeNode = station.node?.find((item) => item === currentStation);
 
   return (
     <div
       className="group flex flex-col border-b border-secondary/20"
-      data-active={(isActive && isPlay) || nodeActive != undefined}
+      data-active={(isActive && isPlay) || activeNode != undefined}
     >
       <button
         className={`flex items-center px-4 py-3 outline-none transition-all duration-200 hover:bg-secondary/15 focus:bg-secondary/15 group-data-[active=true]:bg-secondary/20`}
@@ -61,14 +61,14 @@ export default function RadioItem({
       </button>
 
       {station.node && (
-        <div className="hidden w-svw items-center overflow-auto border-t border-secondary/20 bg-secondary/30 group-data-[active=true]:flex">
+        <div className="hidden w-screen items-center overflow-auto border-t border-secondary/20 bg-secondary/30 group-data-[active=true]:flex">
           {station.node.map((node, index) => (
             <button
               key={index}
-              className={`flex items-center justify-center border-b-2 border-r border-secondary/15 border-b-transparent px-5 pb-2 pt-2.5 text-sm text-foreground/80 transition-all hover:bg-background/30 ${nodeActive === node && "border-b-secondary/60 bg-background/40"}`}
+              className={`flex items-center justify-center border-b-2 border-r border-secondary/15 border-b-transparent px-5 pb-2 pt-2.5 text-sm text-foreground/80 transition-all hover:bg-background/30 ${activeNode === node && isPlay && "border-b-secondary/60 bg-background/40"}`}
               onClick={() => playStream(node)}
             >
-              {nodeActive === node ? (
+              {activeNode === node && isPlay ? (
                 <PauseIcon
                   width={16}
                   height={16}

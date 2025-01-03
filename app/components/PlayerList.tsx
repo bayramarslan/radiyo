@@ -14,7 +14,7 @@ export default function PlayerList({
   isPlay,
 }: PlayerListProps) {
   return (
-    <main className="flex flex-col">
+    <main className="flex flex-col overflow-hidden">
       {stations.map((station, index) => (
         <PlayerItem
           key={index}
