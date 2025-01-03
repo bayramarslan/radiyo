@@ -20,6 +20,7 @@ export default function PlayerList({
           key={index}
           station={station}
           playStream={playStream}
+          currentStation={currentStation}
           isActive={currentStation === station}
           isPlay={isPlay}
         />

@@ -147,7 +147,8 @@
     "icon": "/images/logo/akra-fm.jpg",
     "country": "Türkiye",
     "country_code": "TR",
-    "active": true
+    "active": true,
+    "node": []
   },
   {
     "name": "Çağrı FM",
@@ -158,5 +159,67 @@
     "country": "Türkiye",
     "country_code": "TR",
     "active": true
+  },
+  {
+    "name": "Seyr FM",
+    "shortname": "Seyr FM",
+    "url": "https://sslyayin.netyayin.net/8024/stream",
+    "homepage": "seyrdijital.com",
+    "icon": "/images/logo/seyr-fm.jpg",
+    "country": "Türkiye",
+    "country_code": "TR",
+    "active": true,
+    "node": [
+      {
+        "name": "Kuran - Seyr FM",
+        "shortname": "Kuran",
+        "url": "https://sslyayin.netyayin.net:10933/stream?type=http&amp;nocache=20/stream",
+        "homepage": "seyrdijital.com",
+        "icon": "/images/logo/seyr-fm.jpg",
+        "country": "Türkiye",
+        "country_code": "TR",
+        "active": true
+      },
+      {
+        "name": "Sohbet - Seyr FM",
+        "shortname": "Sohbet",
+        "url": "https://sslyayin.netyayin.net:10914/stream?type=http&amp;nocache=20/stream",
+        "homepage": "seyrdijital.com",
+        "icon": "/images/logo/seyr-fm.jpg",
+        "country": "Türkiye",
+        "country_code": "TR",
+        "active": true
+      },
+      {
+        "name": "İlahi - Seyr FM",
+        "shortname": "İlahi",
+        "url": "https://sslyayin.netyayin.net:10918/stream?type=http&amp;nocache=20/stream",
+        "homepage": "seyrdijital.com",
+        "icon": "/images/logo/seyr-fm.jpg",
+        "country": "Türkiye",
+        "country_code": "TR",
+        "active": true
+      },
+      {
+        "name": "Ezgi - Seyr FM",
+        "shortname": "Ezgi",
+        "url": "https://sslyayin.netyayin.net:10917/stream?type=http&amp;nocache=20/stream",
+        "homepage": "seyrdijital.com",
+        "icon": "/images/logo/seyr-fm.jpg",
+        "country": "Türkiye",
+        "country_code": "TR",
+        "active": true
+      },
+      {
+        "name": "Çocuk - Seyr FM",
+        "shortname": "Çocuk",
+        "url": "https://sslyayin.netyayin.net:10906/stream?type=http&amp;nocache=20/stream",
+        "homepage": "seyrdijital.com",
+        "icon": "/images/logo/seyr-fm.jpg",
+        "country": "Türkiye",
+        "country_code": "TR",
+        "active": true
+      }
+    ]
   }
 ]

@@ -7,4 +7,5 @@ interface RadioStation {
   country: string;
   country_code: string;
   active: boolean;
+  node?: RadioStation[] | undefined;
 }
