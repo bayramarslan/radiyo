@@ -220,5 +220,35 @@
         "active": true
       }
     ]
+  },
+  {
+    "name": "Vuslat FM",
+    "shortname": "Vuslat FM",
+    "url": "https://live.vuslatfm.com.tr/vuslatfm",
+    "homepage": "vuslatfm.com.tr",
+    "icon": "/images/logo/vuslat-fm.jpg",
+    "country": "Türkiye",
+    "country_code": "TR",
+    "active": true
+  },
+  {
+    "name": "Çağrı FM",
+    "shortname": "Çağrı FM",
+    "url": "https://live.cagrifm.com.tr/cagrifm",
+    "homepage": "Diyarbakır - cagrifm.com.tr",
+    "icon": "/images/logo/cagri-fm-diyarbakir.jpg",
+    "country": "Türkiye",
+    "country_code": "TR",
+    "active": true
+  },
+  {
+    "name": "Bingöl FM",
+    "shortname": "Bingöl FM",
+    "url": "https://radyo.yayin.com.tr:4302//stream/?icy=http",
+    "homepage": "bingolfm.com",
+    "icon": "/images/logo/bingol-fm.jpg",
+    "country": "Türkiye",
+    "country_code": "TR",
+    "active": true
   }
 ]
