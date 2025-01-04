@@ -147,8 +147,7 @@
     "icon": "/images/logo/akra-fm.jpg",
     "country": "Türkiye",
     "country_code": "TR",
-    "active": true,
-    "node": []
+    "active": true
   },
   {
     "name": "Çağrı FM",
@@ -171,8 +170,8 @@
     "active": true,
     "node": [
       {
-        "name": "Kuran - Seyr FM",
-        "shortname": "Kuran",
+        "name": "Kur'an - Seyr FM",
+        "shortname": "Kur'an",
         "url": "https://sslyayin.netyayin.net:10933/stream?type=http&amp;nocache=20/stream",
         "homepage": "seyrdijital.com",
         "icon": "/images/logo/seyr-fm.jpg",
