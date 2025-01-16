@@ -250,5 +250,15 @@
     "country": "Türkiye",
     "country_code": "TR",
     "active": true
+  },
+  {
+    "name": "Birlik FM",
+    "shortname": "Birlik FM",
+    "url": "https://yayin2.canliyayin.org:7082/;",
+    "homepage": "birlikfm.net",
+    "icon": "/images/logo/birlik-fm.jpg",
+    "country": "Türkiye",
+    "country_code": "TR",
+    "active": true
   }
 ]
