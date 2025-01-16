@@ -1,314 +1,314 @@
 [
-  {
-    "name": "Özel FM",
-    "shortname": "Özel FM",
-    "url": "https://ozelfm.80.yayin.com.tr/;stream/1",
-    "homepage": "ozelfm.net",
-    "icon": "/images/logo/ozelfm-logo.jpg",
-    "country": "Türkiye",
-    "country_code": "TR",
-    "active": true
-  },
-  {
-    "name": "Diyanet Radyo",
-    "shortname": "Diyanet Radyo",
-    "url": "https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3c1171d7d2a.smil/playlist.m3u8",
-    "homepage": "diyanetradyo.com",
-    "icon": "/images/logo/diyanet-radyo.jpg",
-    "country": "Türkiye",
-    "country_code": "TR",
-    "active": true
-  },
-  {
-    "name": "Diyanet Kur'an Radyo",
-    "shortname": "Diyanet Kur'an Radyo",
-    "url": "https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3c14192aa92.smil/playlist.m3u8",
-    "homepage": "diyanetkuranradyo.com",
-    "icon": "/images/logo/diyanet-kuran-radyo.jpg",
-    "country": "Türkiye",
-    "country_code": "TR",
-    "active": true
-  },
-  {
-    "name": "Diyanet Risalet Radyo",
-    "shortname": "Diyanet Risalet Radyo",
-    "url": "https://eustr76.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3c1520b2626.smil/playlist.m3u8",
-    "homepage": "risaletradyo.com",
-    "icon": "/images/logo/diyanet-risalet-radyo.jpg",
-    "country": "Türkiye",
-    "country_code": "TR",
-    "active": true
-  },
-  {
-    "name": "Vav Radyo",
-    "shortname": "Vav Radyo",
-    "url": "https://trkvz-radyolar.ercdn.net/radyovav/playlist.m3u8",
-    "homepage": "vavtv.com.tr",
-    "icon": "/images/logo/vav-radyo.jpg",
-    "country": "Türkiye",
-    "country_code": "TR",
-    "active": true
-  },
-  {
-    "name": "Erkam Radyo",
-    "shortname": "Erkam Radyo",
-    "url": "https://api-tv5.yayin.com.tr:8002/mp3",
-    "homepage": "erkamradyo.com",
-    "icon": "/images/logo/erkam-radyo.jpg",
-    "country": "Türkiye",
-    "country_code": "TR",
-    "active": true
-  },
-  {
-    "name": "TRT Radyo Haber",
-    "shortname": "TRT Radyo Haber",
-    "url": "https://trt.radyotvonline.net/trthaber",
-    "homepage": "radyo.trt.net.tr",
-    "icon": "/images/logo/trt-radyo-haber.jpg",
-    "country": "Türkiye",
-    "country_code": "TR",
-    "active": true
-  },
-  {
-    "name": "Radyo Gül",
-    "shortname": "Radyo Gül",
-    "url": "https://yayin2.canliyayin.org:8866/;*.mp3",
-    "homepage": "radyogul.com.tr",
-    "icon": "/images/logo/radyo-gul.jpg",
-    "country": "Türkiye",
-    "country_code": "TR",
-    "active": true
-  },
-  {
-    "name": "İsra FM",
-    "shortname": "İsra FM",
-    "url": "https://yayin2.canliyayin.org:8210/;stream",
-    "homepage": "Konya - israfm.com",
-    "icon": "/images/logo/isra-fm.jpg",
-    "country": "Türkiye",
-    "country_code": "TR",
-    "active": true
-  },
-  {
-    "name": "Quran Radio - Mp3Quran Tarateel",
-    "shortname": "Quran - Tarateel",
-    "url": "https://qurango.net/radio/tarateel",
-    "homepage": "mp3quran.net",
-    "icon": "/images/logo/mp3quran-radio.jpg?v=1",
-    "country": "",
-    "country_code": "",
-    "active": true
-  },
-  {
-    "name": "Quran Radio - Abdulbasit Abdulsamad",
-    "shortname": "Quran - Abdulsamad",
-    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
-    "homepage": "mp3islam.com",
-    "icon": "/images/logo/abdulbasit-abdulsamad.jpg",
-    "country": "",
-    "country_code": "",
-    "active": true
-  },
-  {
-    "name": "Quran Radio - Maher Al Mueaqly",
-    "shortname": "Quran - Maher Al Mueaqly",
-    "url": "https://radio.mp3islam.com/listen/maher/radio.mp3",
-    "homepage": "mp3islam.com",
-    "icon": "/images/logo/maher-al-mueaqly.jpg?v=1",
-    "country": "",
-    "country_code": "",
-    "active": true
-  },
-  {
-    "name": "Radyo Nida",
-    "shortname": "Radyo Nida",
-    "url": "https://anadolu.liderhost.com.tr/8106/stream",
-    "homepage": "radyonida.com.tr",
-    "icon": "/images/logo/radyo-nida.jpg",
-    "country": "Türkiye",
-    "country_code": "TR",
-    "active": true
-  },
-  {
-    "name": "Moral FM",
-    "shortname": "Moral FM",
-    "url": "https://stream-51.zeno.fm/0cfiqwdkobavv?zs=RptTdDEHQ2Wej62cArILjQ",
-    "homepage": "moralfm.com.tr",
-    "icon": "/images/logo/moral-fm.jpg",
-    "country": "Türkiye",
-    "country_code": "TR",
-    "active": true
-  },
-  {
-    "name": "Akra FM",
-    "shortname": "Akra FM",
-    "url": "https://cdn3.akradyo.net/akracanli2/_definst_/livestream_aac/playlist.m3u8",
-    "homepage": "akradyo.net",
-    "icon": "/images/logo/akra-fm.jpg",
-    "country": "Türkiye",
-    "country_code": "TR",
-    "active": true
-  },
-  {
-    "name": "Çağrı FM",
-    "shortname": "Çağrı FM",
-    "url": "https://sssx.radyosfer.com/9398/stream?/;stream.mp3",
-    "homepage": "Çorum - cagrifm.com",
-    "icon": "/images/logo/cagri-fm.jpg",
-    "country": "Türkiye",
-    "country_code": "TR",
-    "active": true
-  },
-  {
-    "name": "Seyr FM",
-    "shortname": "Seyr FM",
-    "url": "https://sslyayin.netyayin.net/8024/stream",
-    "homepage": "seyrdijital.com",
-    "icon": "/images/logo/seyr-fm.jpg",
-    "country": "Türkiye",
-    "country_code": "TR",
-    "active": true,
-    "node": [
-      {
-        "name": "Kur'an - Seyr FM",
-        "shortname": "Kur'an",
-        "url": "https://sslyayin.netyayin.net:10933/stream?type=http&amp;nocache=20/stream",
-        "homepage": "seyrdijital.com",
-        "icon": "/images/logo/seyr-fm.jpg",
-        "country": "Türkiye",
-        "country_code": "TR",
-        "active": true
-      },
-      {
-        "name": "Sohbet - Seyr FM",
-        "shortname": "Sohbet",
-        "url": "https://sslyayin.netyayin.net:10914/stream?type=http&amp;nocache=20/stream",
-        "homepage": "seyrdijital.com",
-        "icon": "/images/logo/seyr-fm.jpg",
-        "country": "Türkiye",
-        "country_code": "TR",
-        "active": true
-      },
-      {
-        "name": "İlahi - Seyr FM",
-        "shortname": "İlahi",
-        "url": "https://sslyayin.netyayin.net:10918/stream?type=http&amp;nocache=20/stream",
-        "homepage": "seyrdijital.com",
-        "icon": "/images/logo/seyr-fm.jpg",
-        "country": "Türkiye",
-        "country_code": "TR",
-        "active": true
-      },
-      {
-        "name": "Ezgi - Seyr FM",
-        "shortname": "Ezgi",
-        "url": "https://sslyayin.netyayin.net:10917/stream?type=http&amp;nocache=20/stream",
-        "homepage": "seyrdijital.com",
-        "icon": "/images/logo/seyr-fm.jpg",
-        "country": "Türkiye",
-        "country_code": "TR",
-        "active": true
-      },
-      {
-        "name": "Çocuk - Seyr FM",
-        "shortname": "Çocuk",
-        "url": "https://sslyayin.netyayin.net:10906/stream?type=http&amp;nocache=20/stream",
-        "homepage": "seyrdijital.com",
-        "icon": "/images/logo/seyr-fm.jpg",
-        "country": "Türkiye",
-        "country_code": "TR",
-        "active": true
-      }
-    ]
-  },
-  {
-    "name": "Vuslat FM",
-    "shortname": "Vuslat FM",
-    "url": "https://live.vuslatfm.com.tr/vuslatfm",
-    "homepage": "vuslatfm.com.tr",
-    "icon": "/images/logo/vuslat-fm.jpg",
-    "country": "Türkiye",
-    "country_code": "TR",
-    "active": true
-  },
-  {
-    "name": "Çağrı FM",
-    "shortname": "Çağrı FM",
-    "url": "https://live.cagrifm.com.tr/cagrifm",
-    "homepage": "Diyarbakır - cagrifm.com.tr",
-    "icon": "/images/logo/cagri-fm-diyarbakir.jpg",
-    "country": "Türkiye",
-    "country_code": "TR",
-    "active": true
-  },
-  {
-    "name": "Bingöl FM",
-    "shortname": "Bingöl FM",
-    "url": "https://radyo.yayin.com.tr:4302//stream/?icy=http",
-    "homepage": "bingolfm.com",
-    "icon": "/images/logo/bingol-fm.jpg",
-    "country": "Türkiye",
-    "country_code": "TR",
-    "active": true
-  },
-  {
-    "name": "Birlik FM",
-    "shortname": "Birlik FM",
-    "url": "https://yayin2.canliyayin.org:7082/;",
-    "homepage": "birlikfm.net",
-    "icon": "/images/logo/birlik-fm.jpg",
-    "country": "Türkiye",
-    "country_code": "TR",
-    "active": true
-  },
-  {
-    "name": "Arkadaş FM",
-    "shortname": "Arkadaş FM",
-    "url": "https://radyo.yayindakiler.com:4134/stream/;type=mp3",
-    "homepage": "arkadasradyo.com.tr",
-    "icon": "/images/logo/arkadas-fm.jpg",
-    "country": "Türkiye",
-    "country_code": "TR",
-    "active": true
-  },
-  {
-    "name": "Barış Radyo",
-    "shortname": "Barış Radyo",
-    "url": "https://yayin2.canliyayin.org:9350/;stream",
-    "homepage": "barisradyo.com.tr",
-    "icon": "/images/logo/barisradyo.jpg",
-    "country": "Türkiye",
-    "country_code": "TR",
-    "active": true
-  },
-  {
-    "name": "Gözyaşı FM",
-    "shortname": "Gözyaşı FM",
-    "url": "https://yayin2.canliyayin.org:8700/;*.mp3",
-    "homepage": "Konya - konyagozyasifm.com",
-    "icon": "/images/logo/gozyasifm.jpg",
-    "country": "Türkiye",
-    "country_code": "TR",
-    "active": true
-  },
-  {
-    "name": "Radyo Hayat",
-    "shortname": "Radyo Hayat",
-    "url": "https://wowza1.radyotvonline.com/shoutcast/radyohayat.stream/playlist.m3u8",
-    "homepage": "Adana - radyohayat.com.tr",
-    "icon": "/images/logo/radyohayat.jpg",
-    "country": "Türkiye",
-    "country_code": "TR",
-    "active": true
-  },
-  {
-    "name": "Radyo Feza",
-    "shortname": "Radyo Feza",
-    "url": "https://yayin.radyofeza.com/8002/stream",
-    "homepage": "radyofeza.com",
-    "icon": "/images/logo/radyofeza.jpg",
-    "country": "Türkiye",
-    "country_code": "TR",
-    "active": true
-  }
+	{
+		"name": "Özel FM",
+		"shortname": "Özel FM",
+		"url": "https://ozelfm.80.yayin.com.tr/;stream/1",
+		"homepage": "ozelfm.net",
+		"icon": "/images/logo/ozelfm-logo.jpg",
+		"country": "Türkiye",
+		"country_code": "TR",
+		"active": true
+	},
+	{
+		"name": "Diyanet Radyo",
+		"shortname": "Diyanet Radyo",
+		"url": "https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3c1171d7d2a.smil/playlist.m3u8",
+		"homepage": "diyanetradyo.com",
+		"icon": "/images/logo/diyanet-radyo.jpg",
+		"country": "Türkiye",
+		"country_code": "TR",
+		"active": true
+	},
+	{
+		"name": "Diyanet Kur'an Radyo",
+		"shortname": "Diyanet Kur'an Radyo",
+		"url": "https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3c14192aa92.smil/playlist.m3u8",
+		"homepage": "diyanetkuranradyo.com",
+		"icon": "/images/logo/diyanet-kuran-radyo.jpg",
+		"country": "Türkiye",
+		"country_code": "TR",
+		"active": true
+	},
+	{
+		"name": "Diyanet Risalet Radyo",
+		"shortname": "Diyanet Risalet Radyo",
+		"url": "https://eustr76.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3c1520b2626.smil/playlist.m3u8",
+		"homepage": "risaletradyo.com",
+		"icon": "/images/logo/diyanet-risalet-radyo.jpg",
+		"country": "Türkiye",
+		"country_code": "TR",
+		"active": true
+	},
+	{
+		"name": "Vav Radyo",
+		"shortname": "Vav Radyo",
+		"url": "https://trkvz-radyolar.ercdn.net/radyovav/playlist.m3u8",
+		"homepage": "vavtv.com.tr",
+		"icon": "/images/logo/vav-radyo.jpg",
+		"country": "Türkiye",
+		"country_code": "TR",
+		"active": true
+	},
+	{
+		"name": "Erkam Radyo",
+		"shortname": "Erkam Radyo",
+		"url": "https://api-tv5.yayin.com.tr:8002/mp3",
+		"homepage": "erkamradyo.com",
+		"icon": "/images/logo/erkam-radyo.jpg",
+		"country": "Türkiye",
+		"country_code": "TR",
+		"active": true
+	},
+	{
+		"name": "TRT Radyo Haber",
+		"shortname": "TRT Radyo Haber",
+		"url": "https://trt.radyotvonline.net/trthaber",
+		"homepage": "radyo.trt.net.tr",
+		"icon": "/images/logo/trt-radyo-haber.jpg",
+		"country": "Türkiye",
+		"country_code": "TR",
+		"active": true
+	},
+	{
+		"name": "Radyo Gül",
+		"shortname": "Radyo Gül",
+		"url": "https://yayin2.canliyayin.org:8866/;*.mp3",
+		"homepage": "radyogul.com.tr",
+		"icon": "/images/logo/radyo-gul.jpg",
+		"country": "Türkiye",
+		"country_code": "TR",
+		"active": true
+	},
+	{
+		"name": "İsra FM",
+		"shortname": "İsra FM",
+		"url": "https://yayin2.canliyayin.org:8210/;stream",
+		"homepage": "Konya - israfm.com",
+		"icon": "/images/logo/isra-fm.jpg",
+		"country": "Türkiye",
+		"country_code": "TR",
+		"active": true
+	},
+	{
+		"name": "Quran Radio - Mp3Quran Tarateel",
+		"shortname": "Quran - Tarateel",
+		"url": "https://qurango.net/radio/tarateel",
+		"homepage": "mp3quran.net",
+		"icon": "/images/logo/mp3quran-radio.jpg?v=1",
+		"country": "",
+		"country_code": "",
+		"active": true
+	},
+	{
+		"name": "Quran Radio - Abdulbasit Abdulsamad",
+		"shortname": "Quran - Abdulsamad",
+		"url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+		"homepage": "mp3islam.com",
+		"icon": "/images/logo/abdulbasit-abdulsamad.jpg",
+		"country": "",
+		"country_code": "",
+		"active": true
+	},
+	{
+		"name": "Quran Radio - Maher Al Mueaqly",
+		"shortname": "Quran - Maher Al Mueaqly",
+		"url": "https://radio.mp3islam.com/listen/maher/radio.mp3",
+		"homepage": "mp3islam.com",
+		"icon": "/images/logo/maher-al-mueaqly.jpg?v=1",
+		"country": "",
+		"country_code": "",
+		"active": true
+	},
+	{
+		"name": "Radyo Nida",
+		"shortname": "Radyo Nida",
+		"url": "https://anadolu.liderhost.com.tr/8106/stream",
+		"homepage": "radyonida.com.tr",
+		"icon": "/images/logo/radyo-nida.jpg",
+		"country": "Türkiye",
+		"country_code": "TR",
+		"active": true
+	},
+	{
+		"name": "Moral FM",
+		"shortname": "Moral FM",
+		"url": "https://stream-51.zeno.fm/0cfiqwdkobavv?zs=RptTdDEHQ2Wej62cArILjQ",
+		"homepage": "moralfm.com.tr",
+		"icon": "/images/logo/moral-fm.jpg",
+		"country": "Türkiye",
+		"country_code": "TR",
+		"active": true
+	},
+	{
+		"name": "Akra FM",
+		"shortname": "Akra FM",
+		"url": "https://cdn3.akradyo.net/akracanli2/_definst_/livestream_aac/playlist.m3u8",
+		"homepage": "akradyo.net",
+		"icon": "/images/logo/akra-fm.jpg",
+		"country": "Türkiye",
+		"country_code": "TR",
+		"active": true
+	},
+	{
+		"name": "Çağrı FM",
+		"shortname": "Çağrı FM",
+		"url": "https://sssx.radyosfer.com/9398/stream?/;stream.mp3",
+		"homepage": "Çorum - cagrifm.com",
+		"icon": "/images/logo/cagri-fm.jpg",
+		"country": "Türkiye",
+		"country_code": "TR",
+		"active": true
+	},
+	{
+		"name": "Seyr FM",
+		"shortname": "Seyr FM",
+		"url": "https://sslyayin.netyayin.net/8024/stream",
+		"homepage": "seyrdijital.com",
+		"icon": "/images/logo/seyr-fm.jpg",
+		"country": "Türkiye",
+		"country_code": "TR",
+		"active": true,
+		"node": [
+			{
+				"name": "Kur'an - Seyr FM",
+				"shortname": "Kur'an",
+				"url": "https://sslyayin.netyayin.net:10933/stream?type=http&amp;nocache=20/stream",
+				"homepage": "seyrdijital.com",
+				"icon": "/images/logo/seyr-fm.jpg",
+				"country": "Türkiye",
+				"country_code": "TR",
+				"active": true
+			},
+			{
+				"name": "Sohbet - Seyr FM",
+				"shortname": "Sohbet",
+				"url": "https://sslyayin.netyayin.net:10914/stream?type=http&amp;nocache=20/stream",
+				"homepage": "seyrdijital.com",
+				"icon": "/images/logo/seyr-fm.jpg",
+				"country": "Türkiye",
+				"country_code": "TR",
+				"active": true
+			},
+			{
+				"name": "İlahi - Seyr FM",
+				"shortname": "İlahi",
+				"url": "https://sslyayin.netyayin.net:10918/stream?type=http&amp;nocache=20/stream",
+				"homepage": "seyrdijital.com",
+				"icon": "/images/logo/seyr-fm.jpg",
+				"country": "Türkiye",
+				"country_code": "TR",
+				"active": true
+			},
+			{
+				"name": "Ezgi - Seyr FM",
+				"shortname": "Ezgi",
+				"url": "https://sslyayin.netyayin.net:10917/stream?type=http&amp;nocache=20/stream",
+				"homepage": "seyrdijital.com",
+				"icon": "/images/logo/seyr-fm.jpg",
+				"country": "Türkiye",
+				"country_code": "TR",
+				"active": true
+			},
+			{
+				"name": "Çocuk - Seyr FM",
+				"shortname": "Çocuk",
+				"url": "https://sslyayin.netyayin.net:10906/stream?type=http&amp;nocache=20/stream",
+				"homepage": "seyrdijital.com",
+				"icon": "/images/logo/seyr-fm.jpg",
+				"country": "Türkiye",
+				"country_code": "TR",
+				"active": true
+			}
+		]
+	},
+	{
+		"name": "Vuslat FM",
+		"shortname": "Vuslat FM",
+		"url": "https://live.vuslatfm.com.tr/vuslatfm",
+		"homepage": "vuslatfm.com.tr",
+		"icon": "/images/logo/vuslat-fm.jpg",
+		"country": "Türkiye",
+		"country_code": "TR",
+		"active": true
+	},
+	{
+		"name": "Çağrı FM",
+		"shortname": "Çağrı FM",
+		"url": "https://live.cagrifm.com.tr/cagrifm",
+		"homepage": "Diyarbakır - cagrifm.com.tr",
+		"icon": "/images/logo/cagri-fm-diyarbakir.jpg",
+		"country": "Türkiye",
+		"country_code": "TR",
+		"active": true
+	},
+	{
+		"name": "Bingöl FM",
+		"shortname": "Bingöl FM",
+		"url": "https://radyo.yayin.com.tr:4302//stream/?icy=http",
+		"homepage": "bingolfm.com",
+		"icon": "/images/logo/bingol-fm.jpg",
+		"country": "Türkiye",
+		"country_code": "TR",
+		"active": true
+	},
+	{
+		"name": "Birlik FM",
+		"shortname": "Birlik FM",
+		"url": "https://yayin2.canliyayin.org:7082/;",
+		"homepage": "birlikfm.net",
+		"icon": "/images/logo/birlik-fm.jpg",
+		"country": "Türkiye",
+		"country_code": "TR",
+		"active": true
+	},
+	{
+		"name": "Arkadaş FM",
+		"shortname": "Arkadaş FM",
+		"url": "https://radyo.yayindakiler.com:4134/stream/;type=mp3",
+		"homepage": "arkadasradyo.com.tr",
+		"icon": "/images/logo/arkadas-fm.jpg",
+		"country": "Türkiye",
+		"country_code": "TR",
+		"active": true
+	},
+	{
+		"name": "Barış Radyo",
+		"shortname": "Barış Radyo",
+		"url": "https://yayin2.canliyayin.org:9350/;stream",
+		"homepage": "barisradyo.com.tr",
+		"icon": "/images/logo/barisradyo.jpg",
+		"country": "Türkiye",
+		"country_code": "TR",
+		"active": true
+	},
+	{
+		"name": "Gözyaşı FM",
+		"shortname": "Gözyaşı FM",
+		"url": "https://yayin2.canliyayin.org:8700/;*.mp3",
+		"homepage": "Konya - konyagozyasifm.com",
+		"icon": "/images/logo/gozyasifm.jpg",
+		"country": "Türkiye",
+		"country_code": "TR",
+		"active": true
+	},
+	{
+		"name": "Radyo Hayat",
+		"shortname": "Radyo Hayat",
+		"url": "https://wowza1.radyotvonline.com/shoutcast/radyohayat.stream/playlist.m3u8",
+		"homepage": "Adana - radyohayat.com.tr",
+		"icon": "/images/logo/radyohayat.jpg",
+		"country": "Türkiye",
+		"country_code": "TR",
+		"active": true
+	},
+	{
+		"name": "Radyo Feza",
+		"shortname": "Radyo Feza",
+		"url": "https://yayin.radyofeza.com/8002/stream",
+		"homepage": "radyofeza.com",
+		"icon": "/images/logo/radyofeza.jpg",
+		"country": "Türkiye",
+		"country_code": "TR",
+		"active": true
+	}
 ]
