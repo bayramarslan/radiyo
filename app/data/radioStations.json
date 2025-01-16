@@ -260,5 +260,15 @@
     "country": "Türkiye",
     "country_code": "TR",
     "active": true
+  },
+  {
+    "name": "Arkadaş FM",
+    "shortname": "Arkadaş FM",
+    "url": "https://radyo.yayindakiler.com:4134/stream/;type=mp3",
+    "homepage": "arkadasradyo.com.tr",
+    "icon": "/images/logo/arkadas-fm.jpg",
+    "country": "Türkiye",
+    "country_code": "TR",
+    "active": true
   }
 ]
