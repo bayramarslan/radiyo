@@ -270,5 +270,45 @@
     "country": "Türkiye",
     "country_code": "TR",
     "active": true
+  },
+  {
+    "name": "Barış Radyo",
+    "shortname": "Barış Radyo",
+    "url": "https://yayin2.canliyayin.org:9350/;stream",
+    "homepage": "barisradyo.com.tr",
+    "icon": "/images/logo/barisradyo.jpg",
+    "country": "Türkiye",
+    "country_code": "TR",
+    "active": true
+  },
+  {
+    "name": "Gözyaşı FM",
+    "shortname": "Gözyaşı FM",
+    "url": "https://yayin2.canliyayin.org:8700/;*.mp3",
+    "homepage": "Konya - konyagozyasifm.com",
+    "icon": "/images/logo/gozyasifm.jpg",
+    "country": "Türkiye",
+    "country_code": "TR",
+    "active": true
+  },
+  {
+    "name": "Radyo Hayat",
+    "shortname": "Radyo Hayat",
+    "url": "https://wowza1.radyotvonline.com/shoutcast/radyohayat.stream/playlist.m3u8",
+    "homepage": "Adana - radyohayat.com.tr",
+    "icon": "/images/logo/radyohayat.jpg",
+    "country": "Türkiye",
+    "country_code": "TR",
+    "active": true
+  },
+  {
+    "name": "Radyo Feza",
+    "shortname": "Radyo Feza",
+    "url": "https://yayin.radyofeza.com/8002/stream",
+    "homepage": "radyofeza.com",
+    "icon": "/images/logo/radyofeza.jpg",
+    "country": "Türkiye",
+    "country_code": "TR",
+    "active": true
   }
 ]
