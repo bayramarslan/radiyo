@@ -59,14 +59,13 @@ export default function RadioItem({
 					</div>
 				</div>
 			</button>
-
 			{station.node && (
 				<div className="hidden w-screen items-center overflow-auto border-t border-secondary/20 bg-secondary/15 group-data-[active=true]:flex">
 					{station.node.map((node, index) => (
 						<button
 							key={index}
 							data-active={activeNode === node && isPlay}
-							className={`h-14 min-w-28 border-b-2 border-r border-t-2 border-secondary/15 border-b-transparent border-t-transparent px-5 text-sm text-foreground/50 outline-none transition-all hover:bg-background/50 data-[active=true]:border-b-2 data-[active=true]:border-b-secondary/50 data-[active=true]:bg-background/50 data-[active=true]:text-foreground`}
+							className={`h-14 min-w-28 border-b-2 border-r border-t-2 border-transparent border-b-transparent px-5 text-sm text-foreground/50 outline-none transition-all hover:border-b-secondary/50 hover:bg-background/50 hover:text-foreground/70 data-[active=true]:border-b-secondary/50 data-[active=true]:bg-background/50 data-[active=true]:text-foreground`}
 							onClick={() => playStream(node)}
 						>
 							<div className="flex items-center justify-center">
