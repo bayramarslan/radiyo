@@ -20,11 +20,11 @@ export default function RadioItem({
 
 	return (
 		<div
-			className="group flex flex-col border-b border-secondary/20"
+			className="group border-secondary/20 flex flex-col border-b"
 			data-active={(isActive && isPlay) || activeNode != undefined}
 		>
 			<button
-				className={`flex items-center px-4 py-3 outline-none transition-all duration-200 hover:bg-secondary/15 focus:bg-secondary/15 group-data-[active=true]:bg-secondary/20`}
+				className={`group-data-[active=false]:hover:bg-secondary/15 group-data-[active=false]:focus:bg-secondary/15 group-data-[active=true]:bg-secondary/25 flex items-center px-4 py-3 outline-hidden transition-all duration-200`}
 				aria-label={station.name}
 				onClick={() => playStream(station)}
 			>
@@ -39,10 +39,10 @@ export default function RadioItem({
 				<div className="flex flex-1 items-center">
 					<div className="flex flex-1 flex-col items-start">
 						<p className="line-clamp-1 text-start font-bold">
-							<span className="block xs:hidden">{station.name}</span>
-							<span className="hidden xs:block">{station.shortname}</span>
+							<span className="xs:hidden block">{station.name}</span>
+							<span className="xs:block hidden">{station.shortname}</span>
 						</p>
-						<p className="line-clamp-1 text-sm text-foreground/50" aria-hidden>
+						<p className="text-foreground/50 line-clamp-1 text-sm" aria-hidden>
 							{station.homepage}
 						</p>
 					</div>
@@ -60,12 +60,12 @@ export default function RadioItem({
 				</div>
 			</button>
 			{station.node && (
-				<div className="hidden w-screen items-center overflow-auto border-t border-secondary/20 bg-secondary/15 group-data-[active=true]:flex">
+				<div className="border-secondary/20 bg-secondary/15 hidden w-screen items-center overflow-auto border-t group-data-[active=true]:flex">
 					{station.node.map((node, index) => (
 						<button
 							key={index}
 							data-active={activeNode === node && isPlay}
-							className={`h-14 min-w-28 border-b-2 border-r border-t-2 border-transparent border-b-transparent px-5 text-sm text-foreground/50 outline-none transition-all hover:border-b-secondary/50 hover:bg-background/50 hover:text-foreground/70 data-[active=true]:border-b-secondary/50 data-[active=true]:bg-background/50 data-[active=true]:text-foreground`}
+							className={`text-foreground/50 hover:border-b-secondary/50 hover:bg-background/50 hover:text-foreground/70 data-[active=true]:border-b-secondary/50 data-[active=true]:bg-background/50 data-[active=true]:text-foreground h-14 min-w-28 border-t-2 border-r border-b-2 border-transparent border-b-transparent px-5 text-sm outline-hidden transition-all`}
 							onClick={() => playStream(node)}
 						>
 							<div className="flex items-center justify-center">

@@ -48,7 +48,7 @@ export default function Main() {
 	if (!filteredStations) return;
 
 	return (
-		<div className="grid min-h-dvh select-none grid-rows-[auto_1fr_auto]">
+		<div className="grid min-h-dvh grid-rows-[auto_1fr_auto] select-none">
 			<Header isPlay={isPlay} onSearchChange={handleSearchChange} />
 			<PlayerList
 				stations={filteredStations}

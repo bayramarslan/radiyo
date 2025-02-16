@@ -22,7 +22,7 @@ export default function PlayerController({
 	nextStation,
 }: PlayerControllerProps) {
 	return (
-		<div className="sticky bottom-0 flex flex-row items-center justify-between gap-2 border-t-4 border-secondary bg-primary/30 px-4 py-3 backdrop-blur-3xl">
+		<div className="border-secondary bg-primary/30 sticky bottom-0 flex flex-row items-center justify-between gap-2 border-t-4 px-4 py-3 backdrop-blur-3xl">
 			<div className="flex items-center justify-center">
 				<Image
 					src={station.icon}
@@ -33,24 +33,24 @@ export default function PlayerController({
 				/>
 				<div className="">
 					<p className="line-clamp-2 font-bold">
-						<span className="block xs:hidden">{station.name}</span>
-						<span className="hidden xs:block">{station.shortname}</span>
+						<span className="xs:hidden block">{station.name}</span>
+						<span className="xs:block hidden">{station.shortname}</span>
 					</p>
-					<p className="line-clamp-1 text-sm text-foreground/70">
+					<p className="text-foreground/70 line-clamp-1 text-sm">
 						{station.homepage}
 					</p>
 				</div>
 			</div>
-			<div className="flex items-center justify-center gap-1 text-foreground/70">
+			<div className="text-foreground/70 flex items-center justify-center gap-1">
 				<button
 					onClick={() => prevStation && playStream(prevStation)}
-					className="flex size-10 items-center justify-center rounded outline-none transition-all hover:bg-secondary/15 focus:bg-secondary/15"
+					className="hover:bg-secondary/15 focus:bg-secondary/15 flex size-10 items-center justify-center rounded-sm outline-hidden transition-all"
 				>
 					<BackwardIcon width={16} height={16} />
 				</button>
 				<button
 					onClick={() => playStream(station)}
-					className="flex size-12 items-center justify-center rounded outline-none transition-all hover:bg-secondary/15 focus:bg-secondary/15"
+					className="hover:bg-secondary/15 focus:bg-secondary/15 flex size-12 items-center justify-center rounded-sm outline-hidden transition-all"
 				>
 					{isPlay ? (
 						<PauseIcon className="text-foreground/80" width={20} height={20} />
@@ -60,7 +60,7 @@ export default function PlayerController({
 				</button>
 				<button
 					onClick={() => nextStation && playStream(nextStation)}
-					className="flex size-10 items-center justify-center rounded outline-none transition-all hover:bg-secondary/15 focus:bg-secondary/15"
+					className="hover:bg-secondary/15 focus:bg-secondary/15 flex size-10 items-center justify-center rounded-sm outline-hidden transition-all"
 				>
 					<ForwardIcon width={16} height={16} />
 				</button>
