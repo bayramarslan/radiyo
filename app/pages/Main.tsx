@@ -22,14 +22,16 @@ export default function Main() {
 
 	useEffect(() => {
 		if (!currentStation) return;
-
-		const currentIndex = allStations.indexOf(currentStation);
-		const nextStation = allStations[currentIndex + 1] || undefined;
-		const prevStation = allStations[currentIndex - 1] || undefined;
+		const currentIndex = filteredStations.indexOf(currentStation);
+		const nextStation =
+			filteredStations[currentIndex + 1] || filteredStations[0];
+		const prevStation =
+			filteredStations[currentIndex - 1] ||
+			filteredStations[filteredStations.length - 1];
 
 		setNextStation(nextStation);
 		setPrevStation(prevStation);
-	}, [allStations, currentStation]);
+	}, [currentStation, filteredStations]);
 
 	const handleSearchChange = (searchTerm: string = "") => {
 		if (searchTerm.trim().length === 0) {
