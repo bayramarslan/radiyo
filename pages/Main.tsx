@@ -1,4 +1,3 @@
-"use client";
 import Header from "@/components/Header";
 import PlayerController from "@/components/PlayerController";
 import PlayerList from "@/components/PlayerList";
