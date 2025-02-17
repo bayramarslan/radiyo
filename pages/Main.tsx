@@ -1,4 +1,3 @@
-"use client";
 import Header from "@/components/Header";
 import PlayerController from "@/components/PlayerController";
 import PlayerList from "@/components/PlayerList";
@@ -47,7 +46,7 @@ export default function Main() {
 		setFilteredStations(result);
 	};
 
-	if (!filteredStations) return;
+	if (!filteredStations) return null;
 
 	return (
 		<div className="grid min-h-dvh grid-rows-[auto_1fr_auto] select-none">
