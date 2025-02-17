@@ -1,4 +1,4 @@
-import "@/app.css";
+import "./app.css";
 import { Analytics } from "@vercel/analytics/next";
 import type { Metadata, Viewport } from "next";
 

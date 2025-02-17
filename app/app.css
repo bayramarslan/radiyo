@@ -21,24 +21,24 @@
 }
 
 :root {
-	--background: 255 250 240;
-	--foreground: 70 30 10;
-	--color-primary: 255 140 95;
-	--color-secondary: 220 90 95;
+	--color-background: rgb(255 250 240);
+	--color-foreground: rgb(70 30 10);
+	--color-primary: rgb(255 140 95);
+	--color-secondary: rgb(220 90 95);
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--background: 15 4 16;
-		--foreground: 255 209 247;
-		--color-primary: 56 18 69;
-		--color-secondary: 106 35 131;
+		--color-background: rgb(15 4 16);
+		--color-foreground: rgb(255 209 247);
+		--color-primary: rgb(56 18 69);
+		--color-secondary: rgb(106 35 131);
 	}
 }
 
 body {
-	color: rgb(var(--foreground));
-	background: rgb(var(--background));
+	color: var(--color-foreground);
+	background: var(--color-background);
 }
 
 button {
