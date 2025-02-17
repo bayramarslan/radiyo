@@ -39,8 +39,8 @@ export default function RadioItem({
 				<div className="flex flex-1 items-center">
 					<div className="flex flex-1 flex-col items-start">
 						<p className="line-clamp-1 text-start font-bold">
-							<span className="xs:hidden block">{station.name}</span>
-							<span className="xs:block hidden">{station.shortname}</span>
+							<span className="hidden sm:block">{station.name}</span>
+							<span className="block sm:hidden">{station.shortname}</span>
 						</p>
 						<p className="text-foreground/50 line-clamp-1 text-sm" aria-hidden>
 							{station.homepage}

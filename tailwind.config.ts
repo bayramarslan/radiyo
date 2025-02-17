@@ -9,13 +9,10 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				background: "rgb(var(--background))",
-				foreground: "rgb(var(--foreground))",
-				primary: "rgb(var(--color-primary))",
-				secondary: "rgb(var(--color-secondary))",
-			},
-			screens: {
-				xs: { max: "380px" },
+				background: "var(--color-background)",
+				foreground: "var(--color-foreground)",
+				primary: "var(--color-primary)",
+				secondary: "var(--color-secondary)",
 			},
 		},
 	},
