@@ -24,7 +24,7 @@ export default function RadioItem({
 			data-active={(isActive && isPlay) || activeNode != undefined}
 		>
 			<button
-				className={`group-data-[active=false]:hover:bg-secondary/15 group-data-[active=false]:focus:bg-secondary/15 group-data-[active=true]:bg-secondary/25 flex items-center px-4 py-3 outline-hidden transition-all duration-200`}
+				className={`group-data-[active=false]:hover:bg-secondary/30 group-data-[active=false]:focus:bg-secondary/15 group-data-[active=true]:bg-secondary/40 flex items-center px-4 py-3 outline-hidden transition-all duration-200`}
 				aria-label={station.name}
 				onClick={() => playStream(station)}
 			>
