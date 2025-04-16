@@ -340,5 +340,15 @@
 		"country": "",
 		"country_code": "",
 		"active": true
+	},
+	{
+		"name": "Dost FM",
+		"shortname": "Dost FM",
+		"url": "https://dost.stream.emsal.im/fm/5",
+		"homepage": "dosttv.com",
+		"icon": "/images/logo/dost-fm.jpg",
+		"country": "Türkiye",
+		"country_code": "TR",
+		"active": true
 	}
 ]
