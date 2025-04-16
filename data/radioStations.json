@@ -249,7 +249,7 @@
 		"icon": "/images/logo/bingol-fm.jpg",
 		"country": "Türkiye",
 		"country_code": "TR",
-		"active": true
+		"active": false
 	},
 	{
 		"name": "Birlik FM",
