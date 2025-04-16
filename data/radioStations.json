@@ -114,7 +114,7 @@
 		"shortname": "Quran - Maher Al Mueaqly",
 		"url": "https://radio.mp3islam.com/listen/maher/radio.mp3",
 		"homepage": "mp3islam.com",
-		"icon": "/images/logo/maher-al-mueaqly.jpg?v=1",
+		"icon": "/images/logo/maher-al-mueaqly.jpg?v=2",
 		"country": "",
 		"country_code": "",
 		"active": true
@@ -309,6 +309,36 @@
 		"icon": "/images/logo/radyofeza.jpg",
 		"country": "Türkiye",
 		"country_code": "TR",
+		"active": true
+	},
+	{
+		"name": "Quran Radio - Mishary Alafasy",
+		"shortname": "Quran - Mishary Alafasy",
+		"url": "https://radio.mp3islam.com/listen/mishary/radio.mp3",
+		"homepage": "mp3islam.com",
+		"icon": "/images/logo/mishary-alafasy.jpg",
+		"country": "",
+		"country_code": "",
+		"active": true
+	},
+	{
+		"name": "Quran Radio - Nasser Al-Qatami",
+		"shortname": "Quran - Nasser Al-Qatami",
+		"url": "https://server03.quran-uni.com:7104/;*.mp3",
+		"homepage": "omo-alkitab.com",
+		"icon": "/images/logo/nasser-al-qatami.jpg",
+		"country": "",
+		"country_code": "",
+		"active": true
+	},
+	{
+		"name": "Quran Radio - Türkçe Mealli",
+		"shortname": "Quran - Türkçe Mealli",
+		"url": "https://server03.quran-uni.com:7151/;*.mp3",
+		"homepage": "omo-alkitab.com",
+		"icon": "/images/logo/turkiye.jpg",
+		"country": "",
+		"country_code": "",
 		"active": true
 	}
 ]
