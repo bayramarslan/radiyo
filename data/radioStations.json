@@ -350,5 +350,15 @@
 		"country": "Türkiye",
 		"country_code": "TR",
 		"active": true
-	}
+	},
+	 {
+	"name": "Radyo Huzur",
+		"shortname": "Radyo Huzur",
+		"url": "https://sssx.radyosfer.com/malatyaradyohuzur/stream?/;",
+		"homepage": "radyohuzur.net",
+		"icon": "/images/logo/radyo-huzur-malatya.jpg",
+		"country": "Türkiye",
+		"country_code": "TR",
+		"active": true
+	 }
 ]
