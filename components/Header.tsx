@@ -28,7 +28,7 @@ export default function Header({ isPlay, onSearchChange }: HeaderProps) {
 	};
 
 	return (
-		<div className="bg-primary from-primary to-secondary flex items-stretch bg-linear-to-t p-4 sticky top-0">
+		<div className="bg-primary from-primary to-secondary sticky top-0 flex items-stretch bg-linear-to-t p-4">
 			<div
 				className="group border-secondary bg-background/70 mr-3 flex size-[50px] items-center justify-center rounded-lg border-b-2 shadow-sm"
 				data-is-play={isPlay}
